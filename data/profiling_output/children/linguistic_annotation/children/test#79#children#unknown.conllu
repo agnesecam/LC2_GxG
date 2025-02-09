@@ -1,0 +1,181 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Caro Jem non ti devi dei compiti scritti che ti darà Geri.
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Jem	Jem	PROPN	SP	_	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	5	obj	_	_
+5	devi	dovere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+9	scritti	scrivere	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	12	iobj	_	_
+12	darà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	acl:relcl	_	_
+13	Geri	Geri	PROPN	SP	_	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = E molto buono e non te ne darà molti.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	molto	molto	ADV	B	_	3	advmod	_	_
+3	buono	buono	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	e	e	CCONJ	CC	_	8	cc	_	_
+5	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+6	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	8	iobj	_	_
+7	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	8	iobj	_	_
+8	darà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	conj	_	_
+9	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = È un prof., scusa un maestro sai, labitudine che ti fa capire le cose la prima volta che le spiega con parole semplici e concise, senza .
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	prof.	professore	NOUN	S	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	scusa	scusare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	maestro	maestro	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	sai	sapere	NOUN	S	Gender=Masc|Number=Plur	7	compound	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	labitudine	labitudine	NOUN	S	Gender=Fem|Number=Sing	7	appos	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	13	iobj	_	_
+13	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	capire	capire	VERB	V	VerbForm=Inf	13	ccomp	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	19	amod	_	_
+19	volta	volta	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+20	che	che	SCONJ	CS	_	22	mark	_	_
+21	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	22	iobj	_	_
+22	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+23	con	con	ADP	E	_	24	case	_	_
+24	parole	parola	NOUN	S	Gender=Fem|Number=Plur	22	obl	_	_
+25	semplici	semplice	ADJ	A	Number=Plur	24	amod	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	concise	conciso	ADJ	A	Number=Sing	25	conj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	22	punct	_	_
+29	senza	senza	ADP	E	_	22	case	_	_
+30	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = È il miglior maestro della Di Donato insieme alla collega mia ex maestra di mate.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	miglior	migliore	ADJ	A	Degree=Cmp|Number=Sing	4	amod	_	_
+4	maestro	maestro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Di	Di	PROPN	SP	_	4	nmod	_	_
+8	Donato	Donato	PROPN	SP	_	7	flat:name	_	_
+9	insieme	insieme	ADV	B	_	12	case	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	9	fixed	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	collega	collega	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+13	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+14	ex	ex	ADJ	A	_	15	amod	_	_
+15	maestra	maestra	NOUN	S	Number=Sing	12	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	mate	mata	NOUN	S	_	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = I compiti che ti darà saranno quasi sempre temi di fantasia e non cose tipo Se io fossi o Se io potessi che infatti mi riescono ancora oggi piuttosto male Geri non ha mai avuto , semmai Simpatie tu sarai fra quelle visto che ti piacciono gli horror Ah, è vero, non chiamarlo maestro e non perché è pelato, o meglio, come lui, calvo perché lo fa di brutto!
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	5	iobj	_	_
+5	darà	esdere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	acl:relcl	_	_
+6	saranno	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	9	cop	_	_
+7	quasi	quasi	ADV	B	_	8	advmod	_	_
+8	sempre	sempre	ADV	B	_	9	advmod	_	_
+9	temi	tema	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	fantasia	fantasia	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	cose	corre	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	_
+15	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	14	xcomp	_	_
+16	Se	se	SCONJ	CS	_	18	mark	_	_
+17	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+18	fossi	essere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	advcl	_	_
+19	o	o	CCONJ	CC	_	26	cc	_	_
+20	Se	se	SCONJ	CS	_	26	mark	_	_
+21	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+22	potessi	potesso	AUX	VA	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	26	cop	_	_
+23	che	che	SCONJ	CS	_	26	mark	_	_
+24	infatti	infatti	ADV	B	_	26	advmod	_	_
+25	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	26	expl	_	_
+26	riescono	riuscire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+27	ancora	ancora	ADV	B	_	28	advmod	_	_
+28	oggi	oggi	ADV	B	_	26	advmod	_	_
+29	piuttosto	piuttosto	ADP	E	_	30	case	_	_
+30	male	male	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+31	Geri	Geri	PROPN	SP	_	26	nsubj	_	_
+32	non	non	ADV	BN	PronType=Neg	35	advmod	_	_
+33	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
+34	mai	mai	ADV	B	_	35	advmod	_	_
+35	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	ccomp	_	_
+36	,	,	PUNCT	FF	_	38	punct	_	_
+37	semmai	semmai	ADV	B	_	38	advmod	_	_
+38	Simpatie	Simpatie	PROPN	SP	_	35	obj	_	_
+39	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	40	nsubj	_	_
+40	sarai	sarare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	38	acl:relcl	_	_
+41	fra	fra	ADP	E	_	42	case	_	_
+42	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	40	obl	_	_
+43	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	42	acl	_	_
+44	che	che	SCONJ	CS	_	46	mark	_	_
+45	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	46	iobj	_	_
+46	piacciono	piacere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	43	ccomp	_	_
+47	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	49	det	_	_
+48	horror	horror	ADJ	A	Number=Sing	49	amod	_	_
+49	Ah	ah	PROPN	SP	_	46	nsubj	_	SpaceAfter=No
+50	,	,	PUNCT	FF	_	26	punct	_	_
+51	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	52	cop	_	_
+52	vero	vero	ADJ	A	Gender=Masc|Number=Sing	26	conj	_	SpaceAfter=No
+53	,	,	PUNCT	FF	_	55	punct	_	_
+54	non	non	ADV	BN	PronType=Neg	55	advmod	_	_
+55	chiamarlo	chiamarlare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	52	conj	_	_
+56	maestro	maestro	NOUN	S	Gender=Masc|Number=Sing	55	obj	_	_
+57	e	e	CCONJ	CC	_	61	cc	_	_
+58	non	non	ADV	BN	PronType=Neg	61	advmod	_	_
+59	perché	perché	SCONJ	CS	_	61	mark	_	_
+60	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	61	aux	_	_
+61	pelato	pelare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	52	conj	_	SpaceAfter=No
+62	,	,	PUNCT	FF	_	64	punct	_	_
+63	o	o	CCONJ	CC	_	64	cc	_	_
+64	meglio	meglio	ADV	B	_	61	advmod	_	SpaceAfter=No
+65	,	,	PUNCT	FF	_	64	punct	_	_
+66	come	come	ADP	E	_	67	case	_	_
+67	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	64	obl	_	SpaceAfter=No
+68	,	,	PUNCT	FF	_	69	punct	_	_
+69	calvo	calvo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	52	conj	_	_
+70	perché	perché	SCONJ	CS	_	72	mark	_	_
+71	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	72	obj	_	_
+72	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	69	advcl	_	_
+73	di	di	ADP	E	_	74	case	_	_
+74	brutto	brutto	ADJ	A	Gender=Masc|Number=Sing	72	obl	_	SpaceAfter=No
+75	!	!	PUNCT	FS	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 6
+# text = !
+1	!	!	PUNCT	FS	_	0	root	_	_
+
+# sent_id = 7
+# text = So che te la caverai a presto
+1	So	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	5	expl	_	_
+4	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	caverai	caveraio	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	ccomp	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	presto	presto	ADV	B	_	5	advmod	_	SpacesAfter=\n
+

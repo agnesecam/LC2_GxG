@@ -1,0 +1,157 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Caro Lorenzo, ti scrivo per molte cose che i temi che ci assegnano le .
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Lorenzo	Lorenzo	PROPN	SP	_	5	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	5	expl	_	_
+5	scrivo	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
+8	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	temi	tema	NOUN	S	Gender=Masc|Number=Plur	8	acl:relcl	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	14	iobj	_	_
+14	assegnano	assegnare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+15	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	14	obj	_	_
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = La prima cosa da fare è prima pensare a quello che devi scrivere.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+4	da	da	ADP	E	_	5	mark	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	3	acl	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	prima	prima	ADV	B	_	8	advmod	_	_
+8	pensare	pensare	VERB	V	VerbForm=Inf	0	root	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	8	obl	_	_
+11	che	che	PRON	PR	PronType=Rel	13	obj	_	_
+12	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	scrivere	scrivere	VERB	V	VerbForm=Inf	10	acl:relcl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Per esempio io ogni volta che faccio un tema la prof. mi fa sempre pensare prima di scrivere vado fuori tema, come farai tu se non la mia .
+1	Per	per	ADP	E	_	2	case	_	_
+2	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	0	root	_	_
+4	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+5	volta	volta	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+6	che	che	SCONJ	CS	_	7	mark	_	_
+7	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	tema	tema	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	prof.	professore	NOUN	S	_	13	nsubj	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
+13	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	nmod	_	_
+14	sempre	sempre	ADV	B	_	15	advmod	_	_
+15	pensare	pensare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+16	prima	prima	ADV	B	_	18	mark	_	_
+17	di	di	ADP	E	_	16	fixed	_	_
+18	scrivere	scrivere	VERB	V	VerbForm=Inf	15	advcl	_	_
+19	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+20	fuori	fuori	ADV	B	_	19	advmod	_	_
+21	tema	tema	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	come	come	SCONJ	CS	_	24	mark	_	_
+24	farai	fare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+25	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	24	nsubj	_	_
+26	se	se	SCONJ	CS	_	29	mark	_	_
+27	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+28	la	lo	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	mia	mio	PRON	PP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	24	advcl	_	_
+30	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Un altra che ti vorrei dare è luso dei verbi cioè se inizi parlando ad esempio con l , devi finire con l.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	altra	altro	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	6	obj	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	6	iobj	_	_
+5	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	dare	dare	VERB	V	VerbForm=Inf	2	acl:relcl	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	luso	luso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	verbi	verbo	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+12	cioè	cioè	ADV	B	_	22	advmod	_	_
+13	se	se	SCONJ	CS	_	22	mark	_	_
+14	inizi	inizio	NOUN	S	Gender=Masc|Number=Plur	22	obj	_	_
+15	parlando	parlare	VERB	V	VerbForm=Ger	22	advcl	_	_
+16	ad	a	ADP	E	_	17	case	_	_
+17	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+18	con	con	ADP	E	_	19	case	_	_
+19	l	l	NOUN	S	Gender=Masc	15	obl	_	_
+20	,	,	PUNCT	FF	_	15	punct	_	_
+21	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	finire	finire	VERB	V	VerbForm=Inf	11	advcl	_	_
+23	con	con	ADP	E	_	24	case	_	_
+24	l	l	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 5
+# text = Mantieni la e non ; e non devi mai sbagliare i pronomi che sono anche quelli per fare un tema.
+1	Mantieni	mantieni	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	e	e	CCONJ	CC	_	10	cc	_	_
+4	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+5	;	;	PUNCT	FC	_	10	punct	_	_
+6	e	e	CCONJ	CC	_	10	cc	_	_
+7	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+8	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	mai	mai	ADV	B	_	10	advmod	_	_
+10	sbagliare	sbagliare	VERB	V	VerbForm=Inf	1	conj	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	pronomi	pronome	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+13	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+14	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	anche	anche	ADV	B	_	16	advmod	_	_
+16	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	12	acl:relcl	_	_
+17	per	per	ADP	E	_	18	mark	_	_
+18	fare	fare	VERB	V	VerbForm=Inf	16	advcl	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	tema	tema	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Ciao Lorenzo spero che le mie possano tornarti utili.
+1	Ciao	ciao	INTJ	I	_	3	discourse	_	_
+2	Lorenzo	Lorenzo	PROPN	SP	_	3	nsubj	_	_
+3	spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	8	mark	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	mie	mia	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+7	possano	potere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8-9	tornarti	_	_	_	_	_	_	_	_
+8	tornar	tornare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+9	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	8	obj	_	_
+10	utili	utile	ADJ	A	Number=Plur	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Se in futuro dovessi avere ancora bisogno di qualcosa scrivimi pure, a presto.
+1	Se	se	SCONJ	CS	_	5	mark	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	dovessi	dovesso	AUX	VA	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	avere	avere	VERB	V	VerbForm=Inf	0	root	_	_
+6	ancora	ancora	ADV	B	_	5	advmod	_	_
+7	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	7	nmod	_	_
+10	scrivimi	scrivimo	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+11	pure	pure	ADV	B	_	14	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	presto	presto	ADV	B	_	10	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

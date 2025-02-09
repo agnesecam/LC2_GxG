@@ -1,0 +1,201 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Caro Andrea; ti scrivo per dirti che non devi avere paura perché le maestre Sonia e Paola sono molto buone.
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Andrea	Andrea	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	;	;	PUNCT	FC	_	2	punct	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	5	iobj	_	_
+5	scrivo	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7-8	dirti	_	_	_	_	_	_	_	_
+7	dir	dire	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	iobj	_	_
+9	che	che	SCONJ	CS	_	12	mark	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	avere	avere	VERB	V	VerbForm=Inf	7	ccomp	_	_
+13	paura	paura	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+14	perché	perché	SCONJ	CS	_	22	mark	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	maestre	maestra	NOUN	S	Gender=Fem|Number=Plur	22	nsubj	_	_
+17	Sonia	Sonia	PROPN	SP	_	16	nmod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	Paola	Paola	PROPN	SP	_	17	conj	_	_
+20	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	molto	molto	ADV	B	_	22	advmod	_	_
+22	buone	buono	ADJ	A	Gender=Fem|Number=Plur	12	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = E se studi non dovrai avere paura dei compiti scritti, di solito la maestra Paola ci dava dei compiti scritti molto facili ma secondo me quello più difficile era lh dalla a.
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	se	se	SCONJ	CS	_	6	mark	_	_
+3	studi	studio	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	dovrai	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	6	aux	_	_
+6	avere	avere	VERB	V	VerbForm=Inf	19	advcl	_	_
+7	paura	paura	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+11	scritti	scritto	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	solito	solito	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	maestra	maestra	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+17	Paola	Paola	PROPN	SP	_	16	nmod	_	_
+18	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	19	obj	_	_
+19	dava	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+20-21	dei	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	_
+23	scritti	scritto	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	22	acl	_	_
+24	molto	molto	ADV	B	_	25	advmod	_	_
+25	facili	facile	ADJ	A	Number=Plur	23	xcomp	_	_
+26	ma	ma	CCONJ	CC	_	33	cc	_	_
+27	secondo	secondo	ADP	E	_	28	case	_	_
+28	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	29	obl	_	_
+29	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	33	nsubj	_	_
+30	più	più	ADV	B	_	31	advmod	_	_
+31	difficile	difficile	ADJ	A	Number=Sing	29	amod	_	_
+32	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	cop	_	_
+33	lh	lh	X	SW	Foreign=Yes	23	conj	_	_
+34-35	dalla	_	_	_	_	_	_	_	_
+34	da	da	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	a	a	NOUN	S	_	33	obl:agent	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 3
+# text = La maestra Sonia una volta ci ha fatto fare un compito di geografia e noi dovevamo a parole nostre il Sud America e io lho passato alla .
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	maestra	maestra	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	Sonia	Sonia	PROPN	SP	_	5	nmod	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	volta	volta	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	iobj	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	fare	fare	VERB	V	VerbForm=Inf	8	ccomp	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	compito	compito	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	geografia	geografia	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	e	e	CCONJ	CC	_	26	cc	_	_
+15	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	26	nsubj	_	_
+16	dovevamo	dovere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	26	aux	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	parole	parola	NOUN	S	Gender=Fem|Number=Plur	26	obl	_	_
+19	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	21	det:predet	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Sud	Sud	PROPN	SP	_	18	nmod	_	_
+22	America	America	PROPN	SP	_	21	flat:name	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	22	conj	_	_
+25	lho	lavere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	passato	passare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+27-28	alla	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	28	case	_	_
+28	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	obl	_	_
+29	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = Il compito scritto di storia potevo parlare dei Sumeri, , Egiziani tutti popoli .
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	compito	compito	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	scritto	scrivere	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	storia	storia	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	potevo	potere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	parlare	parlare	VERB	V	VerbForm=Inf	0	root	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	Sumeri	Sumeri	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	,	,	PUNCT	FF	_	7	punct	_	_
+13	Egiziani	Egiziani	PROPN	SP	_	7	appos	_	_
+14	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	15	obl	_	_
+15	popoli	popole	ADJ	A	Number=Plur	13	amod	_	_
+16	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = Le professa i compiti facendoti venire alla cattedra e per me quello era sempre un momento crociale ma alla fine andava tutto bene.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	professa	professa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+5-6	facendoti	_	_	_	_	_	_	_	_
+5	facendo	fare	VERB	V	VerbForm=Ger	4	advcl	_	_
+6	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	5	obj	_	_
+7	venire	venire	VERB	V	VerbForm=Inf	5	ccomp	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	cattedra	cattedra	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	e	e	CCONJ	CC	_	18	cc	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	18	obl	_	_
+14	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	18	nsubj	_	_
+15	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	cop	_	_
+16	sempre	sempre	ADV	B	_	18	advmod	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	momento	momento	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+19	crociale	crociale	ADJ	A	Number=Sing	18	amod	_	_
+20	ma	ma	CCONJ	CC	_	24	cc	_	_
+21-22	alla	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	fine	fine	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+24	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+25	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	26	obl	_	_
+26	bene	bene	ADV	B	_	24	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = E se te vuoi la devi metterti sotto e studiare e alla fine devi metterti sotto e studiare e alla fine otterrai quello che vorrai.
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	se	se	SCONJ	CS	_	7	mark	_	_
+3	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	obj	_	_
+4	vuoi	volere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+6	devi	devo	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7-8	metterti	_	_	_	_	_	_	_	_
+7	metter	mettere	VERB	V	VerbForm=Inf	0	root	_	_
+8	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	iobj	_	_
+9	sotto	sotto	ADV	B	_	7	advmod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	studiare	studiare	VERB	V	VerbForm=Inf	7	conj	_	_
+12	e	e	CCONJ	CC	_	17	cc	_	_
+13-14	alla	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	fine	fine	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+16	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17-18	metterti	_	_	_	_	_	_	_	_
+17	metter	mettere	VERB	V	VerbForm=Inf	7	conj	_	_
+18	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	17	obj	_	_
+19	sotto	sotto	ADV	B	_	17	advmod	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	studiare	studiare	VERB	V	VerbForm=Inf	19	conj	_	_
+22	e	e	CCONJ	CC	_	27	cc	_	_
+23-24	alla	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	fine	fine	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+26	otterrai	otterere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	27	cop	_	_
+27	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	conj	_	_
+28	che	che	PRON	PR	PronType=Rel	29	obj	_	_
+29	vorrai	vorrare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 7
+# text = Tanti cari saluti
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	cari	caro	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	saluti	saluti	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	SpacesAfter=\n
+

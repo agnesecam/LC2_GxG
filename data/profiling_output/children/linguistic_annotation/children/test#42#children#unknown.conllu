@@ -1,0 +1,207 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Caro , anche io ho questi ostacoli e li affronto tuttora, il mio consiglio per te è di Non pensare alla del compito o di quanto ci metterai, devi solo pensare di finirlo e che ce la farai.
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	anche	anche	ADV	B	_	4	advmod	_	_
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	7	det	_	_
+7	ostacoli	ostacolo	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	obj	_	_
+10	affronto	affrontare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
+11	tuttora	tuttora	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+16	per	per	ADP	E	_	17	case	_	_
+17	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	15	nmod	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+19	di	di	ADP	E	_	21	mark	_	_
+20	Non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+21	pensare	pensare	VERB	V	VerbForm=Inf	5	ccomp	_	_
+22-23	alla	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	26	case	_	_
+23	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	compito	compito	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+27	o	o	CCONJ	CC	_	29	cc	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	26	conj	_	_
+30	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	31	expl	_	_
+31	metterai	metteere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	35	punct	_	_
+33	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	35	aux	_	_
+34	solo	solo	ADV	B	_	35	advmod	_	_
+35	pensare	pensare	VERB	V	VerbForm=Inf	5	conj	_	_
+36	di	di	ADP	E	_	37	mark	_	_
+37-38	finirlo	_	_	_	_	_	_	_	_
+37	finir	finire	VERB	V	VerbForm=Inf	35	xcomp	_	_
+38	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	obj	_	_
+39	e	e	CCONJ	CC	_	43	cc	_	_
+40	che	che	PRON	PR	PronType=Rel	43	nsubj	_	_
+41	ce	ci	PRON	PC	Clitic=Yes|PronType=Prs	43	expl	_	_
+42	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	43	obj	_	_
+43	farai	fare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	37	conj	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Agli inizi di una verifica o di un tema o di una verifica per primo, devi pensare a quello che vuoi scrivere o buttare le basi di inizio, e fine;
+1-2	Agli	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	inizi	inizio	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	verifica	verifica	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	o	o	CCONJ	CC	_	10	cc	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	tema	tema	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+11	o	o	CCONJ	CC	_	14	cc	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	verifica	verifica	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	14	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	3	punct	_	_
+18	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	pensare	pensare	VERB	V	VerbForm=Inf	0	root	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	19	obl	_	_
+22	che	che	PRON	PR	PronType=Rel	24	obj	_	_
+23	vuoi	volere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	scrivere	scrivere	VERB	V	VerbForm=Inf	21	acl:relcl	_	_
+25	o	o	CCONJ	CC	_	26	cc	_	_
+26	buttare	buttare	VERB	V	VerbForm=Inf	19	conj	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	basi	base	NOUN	S	Gender=Fem|Number=Plur	26	obj	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	33	punct	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	fine	fine	NOUN	S	Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No
+34	;	;	PUNCT	FC	_	19	punct	_	_
+
+# sent_id = 3
+# text = dopo devi le richieste e i .
+1	dopo	dopo	ADV	B	_	2	advmod	_	_
+2	devi	dovere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	richieste	richiesta	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	conj	_	_
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Se ti incute terrore non guardare mai in faccia il maestroa perché potrebbe aumentare la tua ansia o te la potrebbe far venire.
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	iobj	_	_
+3	incute	incutere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	terrore	terrore	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	guardare	guardare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+7	mai	mai	ADV	B	_	6	advmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	maestroa	maestroa	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+12	perché	perché	SCONJ	CS	_	14	mark	_	_
+13	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	aumentare	aumentare	VERB	V	VerbForm=Inf	6	advcl	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	ansia	ansia	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+18	o	o	CCONJ	CC	_	22	cc	_	_
+19	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	22	iobj	_	_
+20	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+21	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	far	fare	VERB	V	VerbForm=Inf	17	conj	_	_
+23	venire	venire	VERB	V	VerbForm=Inf	22	ccomp	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Non prendere parte ai dialoghi che i tuoi compagni stanno e ignora chi ti chiama, ignora chiunque crei ogni azione o suono possibile e che si prosti davanti, indietro, in tutte le direzioni;
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	prendere	prendere	VERB	V	VerbForm=Inf	0	root	_	_
+3	parte	parte	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+4-5	ai	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	dialoghi	dialogo	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	11	obj	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	tuoi	tuo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	compagni	compagno	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	_
+11	stanno	stare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	ignora	ignorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+14	chi	chi	PRON	PR	Number=Sing|PronType=Rel	13	obj	_	_
+15	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	16	expl	_	_
+16	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	ignora	ignora	ADV	B	_	20	advmod	_	_
+19	chiunque	chiunque	PRON	PI	Number=Sing|PronType=Ind	20	nsubj	_	_
+20	crei	creare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	conj	_	_
+21	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	22	det	_	_
+22	azione	azione	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+23	o	o	CCONJ	CC	_	24	cc	_	_
+24	suono	suono	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	conj	_	_
+25	possibile	possibile	ADJ	A	Number=Sing	24	xcomp	_	_
+26	e	e	CCONJ	CC	_	29	cc	_	_
+27	che	che	SCONJ	CS	_	29	mark	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+29	prosti	prorre	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
+30	davanti	davanti	ADV	B	_	37	case	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32	indietro	indietro	ADV	B	_	30	advmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	30	punct	_	_
+34	in	in	ADP	E	_	30	fixed	_	_
+35	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	37	det:predet	_	_
+36	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+37	direzioni	direzione	NOUN	S	Gender=Fem|Number=Plur	29	obl	_	SpaceAfter=No
+38	;	;	PUNCT	FC	_	20	punct	_	_
+
+# sent_id = 6
+# text = girati solo quando ti chiama il Se illa compagnoa ti dà fastidio dillo alla tuoa Maestroa.
+1	girati	girare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	solo	solo	ADV	B	_	5	advmod	_	_
+3	quando	quando	SCONJ	CS	_	5	mark	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	5	expl	_	_
+5	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+7	Se	se	SCONJ	CS	_	11	mark	_	_
+8	illa	illo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	compagnoa	compagnoo	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+10	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	11	iobj	_	_
+11	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+12	fastidio	fastidio	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+13	dillo	dillo	ADJ	A	_	12	amod	_	_
+14-15	alla	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	tuoa	tuoa	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17	Maestroa	Maestroa	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Isolati nella tua mente e ripeti che ce la farai.
+1	Isolati	isolare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2-3	nella	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	mente	mente	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	ripeti	ripetere	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	ce	ce	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	farai	fare	NOUN	S	_	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,191 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Cara Giada Quando andrai in prima media dovrai studiare molto a causa delle molte verifiche di storia, geografia, e di .
+1	Cara	caro	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+2	Giada	Giada	PROPN	SP	_	9	nsubj	_	_
+3	Quando	quando	SCONJ	CS	_	4	mark	_	_
+4	andrai	andere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	9	advcl	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	7	amod	_	_
+7	media	media	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	dovrai	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	9	aux	_	_
+9	studiare	studiare	VERB	V	VerbForm=Inf	0	root	_	_
+10	molto	molto	ADV	B	_	9	obj	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	causa	causa	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13-14	delle	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+15	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	16	det	_	_
+16	verifiche	verifica	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	storia	storia	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	geografia	geografia	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	di	di	ADP	E	_	18	conj	_	_
+24	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = La maggior parte delle volte si faranno dei temi per svolgerli bene dovrai eseguire cinque punti la semantica, la , lideativa e testuale, la tecnica e la grafia.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	3	amod	_	_
+3	parte	parte	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	volte	volta	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	faranno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	temi	tema	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13-14	svolgerli	_	_	_	_	_	_	_	_
+13	svolger	svolgere	VERB	V	VerbForm=Inf	8	advcl	_	_
+14	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	obj	_	_
+15	bene	bene	ADV	B	_	13	advmod	_	_
+16	dovrai	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	17	aux	_	_
+17	eseguire	eseguire	VERB	V	VerbForm=Inf	13	advcl	_	_
+18	cinque	cinque	NUM	N	NumType=Card	19	nummod	_	_
+19	punti	punto	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	semantica	semantica	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	30	punct	_	_
+23	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	lideativa	lideativo	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	testuale	testuale	ADJ	A	Number=Sing	25	conj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	25	punct	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	tecnica	tecnica	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	_
+31	e	e	CCONJ	CC	_	33	cc	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	grafia	grafia	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Semantica dovrai usare un buon , cioè usare sinonimi e le parole.
+1	Semantica	semantico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+2	dovrai	dovere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	3	aux	_	_
+3	usare	usare	VERB	V	VerbForm=Inf	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+5	buon	buono	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	cioè	cioè	CCONJ	CC	_	8	cc	_	_
+8	usare	usare	VERB	V	VerbForm=Inf	3	obj	_	_
+9	sinonimi	sinonimo	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	parole	parola	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = devi unire due o più frasi , per e .
+1	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	unire	unire	VERB	V	VerbForm=Inf	0	root	_	_
+3	due	due	NUM	N	NumType=Card	6	nummod	_	_
+4	o	o	CCONJ	CC	_	5	cc	_	_
+5	più	più	DET	DI	PronType=Ind	3	conj	_	_
+6	frasi	frase	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	e	e	CCONJ	CC	_	2	obl	_	_
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Ideativa e testuale dovrai svolgere il testo con idee e , comunque non importerà se lo scriverai lungo, corto o metà pagina, l è il contenuto.
+1	Ideativa	Ideativo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	testuale	testuale	ADJ	A	Number=Sing	1	conj	_	_
+4	dovrai	dovere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	5	aux	_	_
+5	svolgere	svolgere	VERB	V	VerbForm=Inf	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	testo	testo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	con	con	ADP	E	_	9	case	_	_
+9	idee	idea	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+10	e	e	CCONJ	CC	_	14	cc	_	_
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	comunque	comunque	ADV	B	_	14	advmod	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	importerà	importiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	conj	_	_
+15	se	se	SCONJ	CS	_	17	mark	_	_
+16	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+17	scriverai	scriveraio	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+18	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	corto	corto	ADJ	A	Gender=Masc|Number=Sing	18	conj	_	_
+21	o	o	CCONJ	CC	_	22	cc	_	_
+22	metà	metà	NOUN	S	Gender=Fem	18	conj	_	_
+23	pagina	pagina	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	l	l	X	X	_	14	obj	_	_
+26	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	contenuto	contenuto	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Tecnica dovrai stare attenta agli errori di per esempio le doppie, lapostrofo, laccento ecc Ed infine la grafia dovrai far capire le parole scrivendo bene.
+1	Tecnica	tecnica	ADV	B	_	3	advmod	_	_
+2	dovrai	dovere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	3	aux	_	_
+3	stare	stare	VERB	V	VerbForm=Inf	0	root	_	_
+4	attenta	attento	ADJ	A	Gender=Fem|Number=Sing	3	xcomp	_	_
+5-6	agli	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	errori	errore	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	doppie	doppia	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	lapostrofo	lapostrofo	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	laccento	laccento	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	_
+17	ecc	eccetera	ADV	B	_	23	advmod	_	_
+18	Ed	e	CCONJ	CC	_	23	cc	_	_
+19	infine	infine	ADV	B	_	23	advmod	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	grafia	grafia	NOUN	S	Gender=Fem|Number=Sing	23	nsubj	_	_
+22	dovrai	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	23	aux	_	_
+23	far	fare	VERB	V	VerbForm=Inf	16	conj	_	_
+24	capire	capire	VERB	V	VerbForm=Inf	23	ccomp	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	parole	parola	NOUN	S	Gender=Fem|Number=Plur	24	obj	_	_
+27	scrivendo	scrivere	VERB	V	VerbForm=Ger	24	advcl	_	_
+28	bene	bene	ADV	B	_	27	advmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Se seguirai questi cinque punti riuscirai a prendere un buon volto, non avrai debiti e sarai promosso.
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	seguirai	seguire	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+3	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+4	cinque	cinque	NUM	N	NumType=Card	5	nummod	_	_
+5	punti	punto	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+6	riuscirai	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	prendere	prendere	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	buon	buono	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	volto	volto	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	avrai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	6	conj	_	_
+15	debiti	debitare	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	sarai	saere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	18	aux	_	_
+18	promosso	promuovere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = Un bacione
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	bacione	bacione	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\n
+
