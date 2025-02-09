@@ -1,0 +1,123 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ciao Luca, ho saputo che il prossimo anno verrai in classe con me, nella scuola mazzini.
+1	Ciao	ciao	INTJ	I	_	5	discourse	_	_
+2	Luca	Luca	PROPN	SP	_	5	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	saputo	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	che	che	SCONJ	CS	_	10	mark	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	anno	anno	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+10	verrai	verere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	5	ccomp	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	classe	classe	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	5	punct	_	_
+16-17	nella	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+19	mazzini	mazzino	ADJ	A	Number=Plur	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Ti vorrei dare qualche per scrivere un buon tema per far colpo sul prof. Castelli che è un po difficile da .
+1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	iobj	_	_
+2	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	dare	dare	VERB	V	VerbForm=Inf	0	root	_	_
+4	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	6	det	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	scrivere	scrivere	VERB	V	VerbForm=Inf	3	obj	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	buon	buono	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	tema	tema	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11	far	fare	VERB	V	VerbForm=Inf	6	advcl	_	_
+12	colpo	colpo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+13-14	sul	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	prof	prof	NOUN	S	_	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	15	punct	_	_
+17	Castelli	castello	PROPN	SP	_	15	nmod	_	_
+18	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+19	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	po	po	NOUN	S	Gender=Masc|Number=Sing	17	acl:relcl	_	_
+22	difficile	difficile	ADJ	A	Number=Sing	21	nmod	_	_
+23	da	da	ADP	E	_	22	case	_	_
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Il primo consiglio è la struttura è molto per il tema . il secondo la , cerca di non fare troppi errori di .
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	struttura	struttura	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+8	molto	molto	ADV	B	_	11	advmod	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	tema	tema	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+12	.	.	PUNCT	FS	_	14	punct	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	11	amod	_	_
+15	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	cerca	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+18	di	di	ADP	E	_	20	mark	_	_
+19	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+20	fare	fare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+21	troppi	troppo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	22	det	_	_
+22	errori	errore	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 4
+# text = Il terzo Aggiungi sempre un opinione alla fine del tema.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	Aggiungi	Aggiungio	PROPN	SP	_	0	root	_	_
+4	sempre	sempre	ADV	B	_	6	advmod	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	opinione	opinione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	fine	fine	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	tema	tema	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = La quarta scrivi un tema che sia e il mio ultimo consiglio è non ripetere le stesse cose troppe volte.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	quarta	quarto	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	scrivi	scrivio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	tema	tema	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+7	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+8	e	e	CCONJ	CC	_	15	cc	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+10	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+11	ultimo	ultimo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	ripetere	ripetere	VERB	V	VerbForm=Inf	5	acl:relcl	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+17	stesse	stesso	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	_
+18	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	_
+19	troppe	troppo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	20	det	_	_
+20	volte	volta	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

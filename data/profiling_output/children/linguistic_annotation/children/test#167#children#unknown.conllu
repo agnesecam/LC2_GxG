@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ciao alessio So che hai paura della 5 ma sono sicuro che te la caverai come ho fatto io Questo e quello che succede quando non si fanno i compiti Quindi cerca in tutti i modi di in tutti i modi le regole .
+1	Ciao	ciao	INTJ	I	_	2	cop	_	_
+2	alessio	alessio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	So	so	PROPN	SP	_	2	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	paura	paura	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	5	5	NUM	N	NumType=Card	6	nummod	_	_
+10	ma	ma	CCONJ	CC	_	12	cc	_	_
+11	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	sicuro	sicuro	ADJ	A	Gender=Masc|Number=Sing	2	conj	_	_
+13	che	che	SCONJ	CS	_	16	mark	_	_
+14	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	16	expl	_	_
+15	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+16	caverai	caveraio	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+17	come	come	SCONJ	CS	_	19	mark	_	_
+18	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
+20	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+21	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	19	conj	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	succede	succedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+26	quando	quando	SCONJ	CS	_	29	mark	_	_
+27	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl:pass	_	_
+29	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	advcl	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	33	nsubj	_	_
+32	Quindi	quindi	PROPN	SP	_	31	nmod	_	_
+33	cerca	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	ccomp	_	_
+34	in	in	ADP	E	_	37	case	_	_
+35	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	37	det:predet	_	_
+36	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	modi	modo	NOUN	S	Gender=Masc|Number=Plur	33	obl	_	_
+38	di	di	ADP	E	_	42	case	_	_
+39	in	in	ADP	E	_	42	case	_	_
+40	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	42	det:predet	_	_
+41	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
+42	modi	modo	NOUN	S	Gender=Masc|Number=Plur	37	nmod	_	_
+43	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	44	det	_	_
+44	regole	regola	NOUN	S	Gender=Fem|Number=Plur	42	conj	_	_
+45	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Avrai le mie maestre saranno un po dure come lo sono state con me.
+1	Avrai	avere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	csubj	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	maestre	maestra	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+5	saranno	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	7	cop	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	po	po	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	dure	dure	ADV	B	_	7	advmod	_	_
+9	come	come	SCONJ	CS	_	12	mark	_	_
+10	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+11	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	state	essere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	7	advcl	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Avrai 2 maestre una di italiano e una di le materie della maestra Robberta italiano erano italiano, storia, inglese, mentre la maestra Francesca
+1	Avrai	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	18	acl	_	_
+2	2	2	NUM	N	NumType=Card	3	nummod	_	_
+3	maestre	maestra	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+4	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	3	nmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	3	conj	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	materie	materia	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	maestra	maestra	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	Robberta	Robberta	PROPN	SP	_	14	nmod	_	_
+16	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	cop	_	_
+18	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	storia	storia	NOUN	S	Gender=Fem|Number=Sing	26	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	inglese	inglese	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	20	punct	_	_
+24	mentre	mentre	SCONJ	CS	_	26	cc	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	maestra	maestra	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	_
+27	Francesca	Francesca	PROPN	SP	_	26	nmod	_	SpacesAfter=\n
+

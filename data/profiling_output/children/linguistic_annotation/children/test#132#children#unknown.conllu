@@ -1,0 +1,327 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Caro amico, le non sono molto difficili come pensi e non devi aver paura perché se ti impegni riesci ad arrivare alle medie.
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	amico	amico	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	le	il	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	8	iobj	_	_
+5	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	molto	molto	ADV	B	_	8	advmod	_	_
+8	difficili	difficile	ADJ	A	Number=Plur	0	root	_	_
+9	come	come	ADP	E	_	10	case	_	_
+10	pensi	pensare	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	aver	avere	VERB	V	VerbForm=Inf	8	conj	_	_
+15	paura	paura	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+16	perché	perché	SCONJ	CS	_	20	mark	_	_
+17	se	se	SCONJ	CS	_	19	mark	_	_
+18	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	19	expl	_	_
+19	impegni	impegnare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+20	riesci	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+21	ad	a	ADP	E	_	22	mark	_	_
+22	arrivare	arrivare	VERB	V	VerbForm=Inf	20	xcomp	_	_
+23-24	alle	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	medie	media	NOUN	S	Gender=Fem|Number=Plur	22	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Se hai paura dei compiti scritti cerca di di più e comunque non sono molto difficili anzi possono essere anche molto , infatti quando facevo l in alcuni compiti scritti mi sono divertito mentre in altri meno.
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+3	paura	paura	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7	scritti	scritto	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+8	cerca	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	più	più	ADV	B	_	8	advmod	_	_
+12	e	e	CCONJ	CC	_	17	cc	_	_
+13	comunque	comunque	ADV	B	_	17	advmod	_	_
+14	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+15	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	molto	molto	ADV	B	_	17	advmod	_	_
+17	difficili	difficile	ADJ	A	Number=Plur	8	conj	_	_
+18	anzi	anzi	ADV	B	_	24	advmod	_	_
+19	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+20	essere	essere	AUX	VA	VerbForm=Inf	24	cop	_	_
+21	anche	anche	ADV	B	_	22	advmod	_	_
+22	molto	molto	ADV	B	_	24	advmod	_	_
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	infatti	infatti	ADV	B	_	17	advmod	_	_
+25	quando	quando	SCONJ	CS	_	24	mark	_	_
+26	facevo	fare	X	X	_	25	obj	_	_
+27	l	l	X	X	_	26	flat:foreign	_	_
+28	in	in	ADP	E	_	30	case	_	_
+29	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	30	det	_	_
+30	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	34	obl	_	_
+31	scritti	scritto	ADJ	A	Gender=Masc|Number=Plur	30	amod	_	_
+32	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	34	iobj	_	_
+33	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+34	divertito	divertire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	acl:relcl	_	_
+35	mentre	mentre	SCONJ	CS	_	38	mark	_	_
+36	in	in	ADP	E	_	37	case	_	_
+37	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	38	obl	_	_
+38	meno	meno	ADV	B	_	34	advmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = I compiti scritti più belli che io ho fatto sono i miti, le storie che posso inventare e i compiti scritti che non mi sono piaciuti sono le mappe, le e le storie .
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	12	nsubj	_	_
+3	scritti	scrivere	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	belli	bello	ADJ	A	Gender=Masc|Number=Plur	3	xcomp	_	_
+6	che	che	SCONJ	CS	_	9	mark	_	_
+7	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	miti	mito	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	storie	storia	NOUN	S	Gender=Fem|Number=Plur	12	conj	_	_
+16	che	che	PRON	PR	PronType=Rel	18	obj	_	_
+17	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	inventare	inventare	VERB	V	VerbForm=Inf	15	acl:relcl	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	18	conj	_	_
+22	scritti	scritto	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	_
+23	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+24	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+25	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	27	iobj	_	_
+26	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	piaciuti	piacere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+28	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	mappe	mappa	NOUN	S	Gender=Fem|Number=Plur	12	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	32	punct	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	conj	_	_
+33	e	e	CCONJ	CC	_	35	cc	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	storie	storia	NOUN	S	Gender=Fem|Number=Plur	12	conj	_	_
+36	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 4
+# text = Nei compiti scritti devi essere molto e devi cercare di spiegare nel meglio possibile quello che vuoi scrivere bene e di scrivere più possibili.
+1-2	Nei	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+4	scritti	scrivere	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	aux	_	_
+6	essere	essere	AUX	V	VerbForm=Inf	10	cop	_	_
+7	molto	molto	ADV	B	_	10	advmod	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	cercare	cercare	VERB	V	VerbForm=Inf	0	root	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	spiegare	spiegare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13-14	nel	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	meglio	meglio	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	possibile	possibile	ADJ	A	Number=Sing	15	amod	_	_
+17	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	12	obj	_	_
+18	che	che	PRON	PR	PronType=Rel	20	obj	_	_
+19	vuoi	volere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	scrivere	scrivere	VERB	V	VerbForm=Inf	17	acl:relcl	_	_
+21	bene	bene	ADV	B	_	20	advmod	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	di	di	ADP	E	_	24	mark	_	_
+24	scrivere	scrivere	VERB	V	VerbForm=Inf	20	conj	_	_
+25	più	più	ADV	B	_	26	advmod	_	_
+26	possibili	possibile	ADJ	A	Number=Plur	24	xcomp	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 5
+# text = La quinta può essere molto bella perché puoi fare molte gite, il campo scuola e attività sportive, ecc..
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	quinta	quinta	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	6	nsubj	_	_
+3	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	essere	essere	AUX	V	VerbForm=Inf	6	cop	_	_
+5	molto	molto	ADV	B	_	6	advmod	_	_
+6	bella	bello	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+7	perché	perché	SCONJ	CS	_	9	mark	_	_
+8	puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	fare	fare	VERB	V	VerbForm=Inf	6	advcl	_	_
+10	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	11	det	_	_
+11	gite	gita	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	campo	campo	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+15	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	14	compound	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	attività	attività	NOUN	S	Gender=Fem	15	conj	_	_
+18	sportive	sportivo	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	ecc.	ecc.	NOUN	S	_	6	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Le maestre mi hanno dato dei consigli molto utili per scrivere bene cioè di leggere con prima di il compito devi vedere se ci sono dei errori e cercare di scrivere ne troppo piccolo ne troppo grande.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	maestre	maestra	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+4	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	consigli	consiglio	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+9	molto	molto	ADV	B	_	10	advmod	_	_
+10	utili	utile	ADJ	A	Number=Plur	8	amod	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	scrivere	scrivere	VERB	V	VerbForm=Inf	8	acl	_	_
+13	bene	bene	ADV	B	_	12	advmod	_	_
+14	cioè	cioè	ADV	B	_	16	advmod	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16	leggere	leggere	VERB	V	VerbForm=Inf	12	ccomp	_	_
+17	con	con	ADP	E	_	18	case	_	_
+18	prima	prima	ADV	B	_	21	case	_	_
+19	di	di	ADP	E	_	18	fixed	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	compito	compito	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+22	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	vedere	vedere	VERB	V	VerbForm=Inf	16	ccomp	_	_
+24	se	se	SCONJ	CS	_	26	mark	_	_
+25	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	26	expl	_	_
+26	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	_
+27-28	dei	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	errori	errore	NOUN	S	Gender=Masc|Number=Plur	26	obl	_	_
+30	e	e	CCONJ	CC	_	31	cc	_	_
+31	cercare	cercare	VERB	V	VerbForm=Inf	23	conj	_	_
+32	di	di	ADP	E	_	33	mark	_	_
+33	scrivere	scrivere	VERB	V	VerbForm=Inf	31	xcomp	_	_
+34	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	33	iobj	_	_
+35	troppo	troppo	ADV	B	_	36	advmod	_	_
+36	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	33	xcomp	_	_
+37	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	39	iobj	_	_
+38	troppo	troppo	ADV	B	_	39	advmod	_	_
+39	grande	grande	ADJ	A	Number=Sing	36	amod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Le mie maestre i compiti scritti li mettendo il voto per l cioè per lo scrivere bene e con pochi errori e un voto per il contenuto cioè le che hai scritto se sono buone o no in una storia.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	maestre	maestra	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+6	scritti	scrivere	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	obj	_	_
+8	mettendo	mettere	VERB	V	VerbForm=Ger	6	advcl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	voto	voto	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	l	l	NOUN	S	Gender=Masc	16	obl	_	_
+13	cioè	cioè	CCONJ	CC	_	16	cc	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	scrivere	scrivere	VERB	V	VerbForm=Inf	8	xcomp	_	_
+17	bene	bene	ADV	B	_	16	advmod	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	21	det	_	_
+21	errori	errore	NOUN	S	Gender=Masc|Number=Plur	17	conj	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	voto	voto	NOUN	S	Gender=Masc|Number=Sing	21	conj	_	_
+25	per	per	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	contenuto	contenuto	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+28	cioè	cioè	CCONJ	CC	_	32	cc	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+31	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	acl:relcl	_	_
+33	se	se	SCONJ	CS	_	35	mark	_	_
+34	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
+35	buone	buono	ADJ	A	Gender=Fem|Number=Plur	32	ccomp	_	_
+36	o	o	CCONJ	CC	_	37	cc	_	_
+37	no	no	ADV	BN	PronType=Neg	35	conj	_	_
+38	in	in	ADP	E	_	40	case	_	_
+39	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	storia	storia	NOUN	S	Gender=Fem|Number=Sing	35	obl	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = I compiti sono a domande e tu devi mettere le crocette alla risposta che secondo te è giusta oppure i compiti scritti e questi sono più difficili ma una volta che hai capito come farli sono diventati facili e .
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	domande	domanda	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
+8	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	mettere	mettere	VERB	V	VerbForm=Inf	5	conj	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	crocette	crocetta	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+16	secondo	secondo	ADP	E	_	17	case	_	_
+17	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	19	obl	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	giusta	giusto	ADJ	A	Gender=Fem|Number=Sing	14	acl:relcl	_	_
+20	oppure	oppure	CCONJ	CC	_	22	cc	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	_
+23	scritti	scritto	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	_
+24	e	e	CCONJ	CC	_	28	cc	_	_
+25	questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	28	nsubj	_	_
+26	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+27	più	più	ADV	B	_	28	advmod	_	_
+28	difficili	difficile	ADJ	A	Number=Plur	23	conj	_	_
+29	ma	ma	CCONJ	CC	_	39	cc	_	_
+30	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	volta	volta	NOUN	S	Gender=Fem|Number=Sing	39	obl	_	_
+32	che	che	SCONJ	CS	_	34	mark	_	_
+33	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	34	aux	_	_
+34	capito	capire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	advcl	_	_
+35	come	come	ADP	E	_	36	mark	_	_
+36-37	farli	_	_	_	_	_	_	_	_
+36	far	fare	VERB	V	VerbForm=Inf	34	ccomp	_	_
+37	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	36	obj	_	_
+38	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	aux	_	_
+39	diventati	diventare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	28	conj	_	_
+40	facili	facile	ADJ	A	Number=Plur	39	xcomp	_	_
+41	e	e	CCONJ	CC	_	42	cc	_	_
+42	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = Tanti auguri e spero che tu sei promosso in quinta .
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	auguri	augurio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+5	che	che	SCONJ	CS	_	8	mark	_	_
+6	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
+7	sei	essere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	promosso	promuovere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	quinta	quinta	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	8	obl	_	_
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Tanti saluti e abbracci
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	abbracci	abbraccio	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	SpacesAfter=\n
+

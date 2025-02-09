@@ -1,0 +1,289 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Caro Pete Pitso che sei in ansi per i testi scritti del tuo quinto anno di , ma ti assicuro che non ce nè bisogno di tutta questa , poiché i testi non sono una cosa talmente difficile.
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Pete	Pete	PROPN	SP	_	0	root	_	_
+3	Pitso	Pitso	PROPN	SP	_	2	flat:name	_	_
+4	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+5	sei	essere	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	ansi	anso	NOUN	S	Gender=Fem|Number=Sing	2	acl:relcl	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	testi	testo	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+11	scritti	scritto	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	16	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+14	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+15	quinto	quinto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	16	amod	_	_
+16	anno	anno	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+17	di	di	ADP	E	_	16	case	_	_
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	ma	ma	CCONJ	CC	_	21	cc	_	_
+20	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	21	iobj	_	_
+21	assicuro	assicurare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	conj	_	_
+22	che	che	SCONJ	CS	_	24	mark	_	_
+23	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+24	ce	ci	PRON	PC	Clitic=Yes|PronType=Prs	21	ccomp	_	_
+25	nè	nè	CCONJ	CC	_	26	cc	_	_
+26	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	24	nsubj	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	tutta	tutto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	29	det	_	_
+29	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	26	nmod	_	_
+30	,	,	PUNCT	FF	_	37	punct	_	_
+31	poiché	poiché	SCONJ	CS	_	37	mark	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	testi	testo	NOUN	S	Gender=Masc|Number=Plur	37	nsubj	_	_
+34	non	non	ADV	BN	PronType=Neg	37	advmod	_	_
+35	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	_
+36	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	26	advcl	_	_
+38	talmente	talmente	ADV	B	_	39	advmod	_	_
+39	difficile	difficile	ADJ	A	Number=Sing	37	amod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Beh certo le varia di testo in testo a seconda del tema assegnato, ma in fondo gli per fare un buon lavoro non sono tanti fantasia, e un buon lessico in grado di il lettore.
+1	Beh	beh	ADV	B	_	4	advmod	_	_
+2	certo	certo	ADV	B	_	4	advmod	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	varia	vario	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	testo	testo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	testo	testo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	seconda	seconda	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	tema	tema	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	assegnato	assegnato	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	28	punct	_	_
+16	ma	ma	CCONJ	CC	_	28	cc	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21	fare	fare	VERB	V	VerbForm=Inf	19	advcl	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	buon	buono	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+24	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+25	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+26	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+27	tanti	tanto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	28	nsubj	_	_
+28	fantasia	fantasia	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	33	punct	_	_
+30	e	e	CCONJ	CC	_	33	cc	_	_
+31	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	buon	buono	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	_
+33	lessico	lessico	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+34	in	in	ADP	E	_	35	case	_	_
+35	grado	grado	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	lettore	lettore	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Sai mi ricordo di un testo che mi diede da fare la maestra Giulia ed era assai difficile inventa il tuo mondo minimo due pagine Al primo momento mi sembrava una cosa un po al limite ma ci riuscii e devo dire che ero .
+1	Sai	sapere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+3	ricordo	ricordo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	testo	testo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+9	diede	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+10	da	da	ADP	E	_	11	mark	_	_
+11	fare	fare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	maestra	maestra	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	Giulia	Giulia	PROPN	SP	_	13	nmod	_	_
+15	ed	e	CCONJ	CC	_	18	cc	_	_
+16	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	cop	_	_
+17	assai	assai	ADV	B	_	18	advmod	_	_
+18	difficile	difficile	ADJ	A	Number=Sing	3	conj	_	_
+19	inventa	inventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+23	minimo	minimo	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+24	due	due	NUM	N	NumType=Card	25	nummod	_	_
+25	pagine	pagina	NOUN	S	Gender=Fem|Number=Plur	22	nmod	_	_
+26-27	Al	_	_	_	_	_	_	_	_
+26	A	a	ADP	E	_	29	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	29	amod	_	_
+29	momento	momento	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+30	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	31	iobj	_	_
+31	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	advcl	_	_
+32	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	31	obj	_	_
+34	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	po	po	NOUN	S	Gender=Masc|Number=Sing	33	appos	_	_
+36-37	al	_	_	_	_	_	_	_	_
+36	a	a	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	limite	limite	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	_
+39	ma	ma	CCONJ	CC	_	41	cc	_	_
+40	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	41	obj	_	_
+41	riuscii	riuscii	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	conj	_	_
+42	e	e	CCONJ	CC	_	44	cc	_	_
+43	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	44	aux	_	_
+44	dire	dire	VERB	V	VerbForm=Inf	1	conj	_	_
+45	che	che	SCONJ	CS	_	46	mark	_	_
+46	ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	44	ccomp	_	_
+47	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Ho usato la mia fantasia e cercato di ricavarne qualcosa di leggibile e ben fatto.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	usato	usare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	fantasia	fantasia	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	cercato	cercare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9-10	ricavarne	_	_	_	_	_	_	_	_
+9	ricavar	ricavare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	9	iobj	_	_
+11	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	9	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	leggibile	leggibile	ADJ	A	Number=Sing	11	nmod	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	ben	bene	ADV	B	_	16	advmod	_	_
+16	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Lo stesso dovresti fare anche tu perché se ci credi ce la fai.
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	stesso	stesso	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	dovresti	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+5	anche	anche	ADV	B	_	6	advmod	_	_
+6	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	4	obj	_	_
+7	perché	perché	SCONJ	CS	_	13	mark	_	_
+8	se	se	SCONJ	CS	_	10	mark	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	_
+10	credi	credere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+11	ce	ci	PRON	PC	Clitic=Yes|PronType=Prs	13	expl	_	_
+12	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+13	fai	faio	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Il modo più semplice di fare un testo è leggere il titolo, farsi venire delle idee e scrivere la ed ecco che da lì il racconto inizia a e man mano che avanzi, scrivi altri fatti e idee il racconto .
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	modo	modo	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	semplice	semplice	ADJ	A	Number=Sing	2	amod	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	fare	fare	VERB	V	VerbForm=Inf	2	acl	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	testo	testo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	leggere	leggere	VERB	V	VerbForm=Inf	0	root	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14-15	farsi	_	_	_	_	_	_	_	_
+14	far	fare	VERB	V	VerbForm=Inf	10	conj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+16	venire	venire	VERB	V	VerbForm=Inf	14	ccomp	_	_
+17-18	delle	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	idee	idea	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	scrivere	scrivere	VERB	V	VerbForm=Inf	10	conj	_	_
+22	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+23	ed	e	CCONJ	CC	_	24	cc	_	_
+24	ecco	ecco	ADV	B	_	10	conj	_	_
+25	che	che	SCONJ	CS	_	24	fixed	_	_
+26	da	da	ADP	E	_	27	case	_	_
+27	lì	lì	ADV	B	_	24	advmod	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	racconto	racconto	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+30	inizia	iniziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+31	a	a	ADP	E	_	33	case	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	man	mano	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+34	mano	mano	NOUN	S	Gender=Fem|Number=Sing	30	obj	_	_
+35	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+36	avanzi	avanzi	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	acl:relcl	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	38	punct	_	_
+38	scrivi	scrivare	VERB	V	Mood=Sub|Number=Sing|Person=3|VerbForm=Fin	10	conj	_	_
+39	altri	altro	ADJ	A	Gender=Masc|Number=Plur	40	amod	_	_
+40	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	38	obj	_	_
+41	e	e	CCONJ	CC	_	42	cc	_	_
+42	idee	idea	NOUN	S	Gender=Fem|Number=Plur	40	conj	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	racconto	racconto	NOUN	S	Gender=Masc|Number=Sing	38	obl	_	_
+45	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 7
+# text = Secondo me scrivere testi non è un , anzi ti permette di esprimere il tuo parere e ti aiuta a liberare la quando la maestra ti dice di fare un tema non temere.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+3	scrivere	scrivere	VERB	V	VerbForm=Inf	11	csubj	_	_
+4	testi	testo	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+5	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	anzi	anzi	ADV	B	_	11	advmod	_	_
+10	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	11	iobj	_	_
+11	permette	permettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	esprimere	esprimere	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	parere	parere	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	19	obj	_	_
+19	aiuta	aiutare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+20	a	a	ADP	E	_	21	mark	_	_
+21	liberare	liberare	VERB	V	VerbForm=Inf	19	xcomp	_	_
+22	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+23	quando	quando	SCONJ	CS	_	27	mark	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	maestra	maestra	NOUN	S	Gender=Fem|Number=Sing	27	nsubj	_	_
+26	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	27	iobj	_	_
+27	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+28	di	di	ADP	E	_	29	mark	_	_
+29	fare	fare	VERB	V	VerbForm=Inf	27	xcomp	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	tema	tema	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+32	non	non	ADV	BN	PronType=Neg	33	advmod	_	_
+33	temere	temere	VERB	V	VerbForm=Inf	31	acl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 8
+# text = Impegnati e otterrai bei lavori.
+1	Impegnati	impegnare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	otterrai	otterere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	1	conj	_	_
+4	bei	bello	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+5	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = So che ce la puoi fare.
+1	So	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+4	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+5	puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	fare	fare	VERB	V	VerbForm=Inf	1	ccomp	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Saluti
+1	Saluti	Saluto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\n
+

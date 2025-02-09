@@ -1,0 +1,363 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Caro Matteo, sono felice che tu venga alla nostra scuola.
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Matteo	Matteo	PROPN	SP	_	5	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	felice	felice	ADJ	A	Number=Sing	0	root	_	_
+6	che	che	SCONJ	CS	_	8	mark	_	_
+7	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
+8	venga	venire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	12	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Ho ricevuto la tua lettera e ti volevo dire di stare .
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	9	obj	_	_
+8	volevo	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	dire	dire	VERB	V	VerbForm=Inf	2	conj	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	stare	stare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Per una in un tema ci sono otto cose a cui farà per il voto finale 1 Non uscire mai dalla traccia che il o la ti hanno assegnato, nel senso che devi lasciar andare la penna e scrivere il più possibile, ma rimanendo sempre sullargomento e non perderti su cose poco . 2 Scrivere sempre nello stesso tempo;
+1	Per	per	ADP	E	_	2	case	_	_
+2	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	7	obl	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	tema	tema	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	_
+7	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	otto	otto	NUM	N	NumType=Card	9	nummod	_	_
+9	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	cui	cui	PRON	PR	PronType=Rel	12	obl	_	_
+12	farà	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	acl:relcl	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	voto	voto	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	finale	finale	ADJ	A	Number=Sing	15	amod	_	_
+17	1	1	NUM	N	NumType=Card	12	xcomp	_	_
+18	Non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	uscire	uscire	VERB	V	VerbForm=Inf	12	csubj	_	_
+20	mai	mai	ADV	B	_	19	advmod	_	_
+21-22	dalla	_	_	_	_	_	_	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	traccia	traccia	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+24	che	che	SCONJ	CS	_	30	mark	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+26	o	o	CCONJ	CC	_	28	cc	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	30	obj	_	_
+29	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	assegnato	assegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32-33	nel	_	_	_	_	_	_	_	_
+32	in	in	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	senso	senso	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+35	che	che	PRON	PR	PronType=Rel	37	nsubj	_	_
+36	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	37	aux	_	_
+37	lasciar	lasciare	VERB	V	VerbForm=Inf	34	acl:relcl	_	_
+38	andare	andare	VERB	V	VerbForm=Inf	37	ccomp	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	penna	penna	NOUN	S	Gender=Fem|Number=Sing	38	obj	_	_
+41	e	e	CCONJ	CC	_	42	cc	_	_
+42	scrivere	scrivere	VERB	V	VerbForm=Inf	30	conj	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+44	più	più	ADV	B	_	45	advmod	_	_
+45	possibile	possibile	ADJ	A	Number=Sing	42	xcomp	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	48	punct	_	_
+47	ma	ma	CCONJ	CC	_	48	cc	_	_
+48	rimanendo	rimanere	VERB	V	VerbForm=Ger	30	conj	_	_
+49	sempre	sempre	ADV	B	_	48	advmod	_	_
+50	sullargomento	sullargomento	NOUN	S	Gender=Masc|Number=Sing	48	obj	_	_
+51	e	e	CCONJ	CC	_	53	cc	_	_
+52	non	non	ADV	BN	PronType=Neg	53	advmod	_	_
+53-54	perderti	_	_	_	_	_	_	_	_
+53	perder	perdere	VERB	V	VerbForm=Inf	50	conj	_	_
+54	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	53	expl	_	_
+55	su	su	ADP	E	_	56	case	_	_
+56	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	53	obl	_	_
+57	poco	poco	ADV	B	_	59	advmod	_	_
+58	.	.	PUNCT	FS	_	57	punct	_	_
+59	2	2	NUM	N	NumType=Card	60	nummod	_	_
+60	Scrivere	scrivere	PROPN	SP	_	56	amod	_	_
+61	sempre	sempre	ADV	B	_	65	advmod	_	_
+62-63	nello	_	_	_	_	_	_	_	_
+62	in	in	ADP	E	_	65	case	_	_
+63	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	65	det	_	_
+64	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	65	amod	_	_
+65	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	53	obl	_	SpaceAfter=No
+66	;	;	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 4
+# text = se scrivi al passato tieni sempre il passato, se scrivi al presente tieni sempre il presente.
+1	se	se	SCONJ	CS	_	2	mark	_	_
+2	scrivi	scrivare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	passato	passato	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	tieni	tenere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	sempre	sempre	ADV	B	_	6	advmod	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	passato	passato	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	se	se	SCONJ	CS	_	12	mark	_	_
+12	scrivi	scrivare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	presente	presente	ADJ	A	Number=Sing	16	obl	_	_
+16	tieni	tenere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+17	sempre	sempre	ADV	B	_	16	advmod	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	presente	presente	ADJ	A	Number=Sing	16	xcomp	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = 3 La In un tema è molto la perché senza questa il testo viene letto tutto dun fiato senza pause o . 4 Gli errori di .
+1	3	3	NUM	N	NumType=Card	2	nummod	_	_
+2	La	il	PROPN	SP	_	15	nsubj:pass	_	_
+3	In	in	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	tema	tema	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+7	molto	molto	ADV	B	_	15	advmod	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+9	perché	perché	SCONJ	CS	_	15	mark	_	_
+10	senza	senza	ADP	E	_	11	case	_	_
+11	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	15	obl	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	testo	testo	NOUN	S	Gender=Masc|Number=Sing	15	nsubj:pass	_	_
+14	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+15	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	18	obj	_	_
+17	dun	duno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	fiato	fiato	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19	senza	senza	ADP	E	_	20	case	_	_
+20	pause	pausa	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	_
+21	o	o	CCONJ	CC	_	25	cc	_	_
+22	.	.	PUNCT	FS	_	25	punct	_	_
+23	4	4	NUM	N	NumType=Card	25	nummod	_	_
+24	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	errori	errore	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	.	.	PUNCT	FS	_	25	punct	_	_
+
+# sent_id = 6
+# text = Per una usare l giusta è in un tema in classe.
+1	Per	per	ADP	E	_	4	case	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	usare	usare	ADJ	A	Number=Sing	4	amod	_	_
+4	l	l	NOUN	S	_	9	obl	_	_
+5	giusta	giusto	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	tema	tema	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	classe	classe	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 7
+# text = Per esempio la maiuscola, le doppie 5Usare il lessico .
+1	Per	per	ADP	E	_	2	case	_	_
+2	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	maiuscola	maiuscola	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	doppie	doppia	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+8	5Usare	5Usare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	lessico	lessico	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Anche il lessico è molto in un tema in classe usare sempre il più adeguato 6 leggibile.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	lessico	lessico	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+5	molto	molto	ADV	B	_	8	advmod	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	tema	tema	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	classe	classe	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	usare	usare	VERB	V	VerbForm=Inf	8	csubj	_	_
+12	sempre	sempre	ADV	B	_	11	advmod	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+14	più	più	ADV	B	_	15	advmod	_	_
+15	adeguato	adeguato	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+16	6	6	NUM	N	NumType=Card	17	nummod	_	_
+17	leggibile	leggibile	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 9
+# text = Per me la non è una cosa che i contano ma è sempre meglio scrivere bene perché è mezzo voto in più o in meno e dà anche personale.
+1	Per	per	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	obl	_	_
+3	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	contano	contano	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+11	ma	ma	CCONJ	CC	_	14	cc	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	sempre	sempre	ADV	B	_	14	advmod	_	_
+14	meglio	meglio	ADV	B	_	10	conj	_	_
+15	scrivere	scrivere	VERB	V	VerbForm=Inf	14	ccomp	_	_
+16	bene	bene	ADV	B	_	15	advmod	_	_
+17	perché	perché	SCONJ	CS	_	20	mark	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	mezzo	mezzo	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+20	voto	votare	NOUN	S	Gender=Masc|Number=Sing	15	advcl	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	più	più	ADV	B	_	27	obl	_	_
+23	o	o	CCONJ	CC	_	25	cc	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	meno	meno	ADV	B	_	22	conj	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
+28	anche	anche	ADV	B	_	29	advmod	_	_
+29	personale	personale	ADJ	A	Number=Sing	27	xcomp	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 10
+# text = 7 Rimanere sempre sul foglio e a quello che scrivi senza pensare ad altre cose perché sennò perdi il segno di quello che stavi pensando e scrivendo e il tempo non è infinito 8 Prima di il foglio rileggi tutto quello che ha hai scritto perché ti accorgi di errori, , cose che potresti , e tante altre cose.
+1	7	7	NUM	N	NumType=Card	2	nummod	_	_
+2	Rimanere	rimanere	VERB	V	VerbForm=Inf	0	root	_	_
+3	sempre	sempre	ADV	B	_	2	advmod	_	_
+4-5	sul	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	foglio	foglio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	conj	_	_
+10	che	che	PRON	PR	PronType=Rel	11	obj	_	_
+11	scrivi	scrivare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	senza	senza	ADP	E	_	13	mark	_	_
+13	pensare	pensare	VERB	V	VerbForm=Inf	11	advcl	_	_
+14	ad	a	ADP	E	_	16	case	_	_
+15	altre	altro	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+16	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+17	perché	perché	SCONJ	CS	_	18	mark	_	_
+18	sennò	sennare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	advcl	_	_
+19	perdi	perdo	ADV	B	_	18	advmod	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	segno	segno	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	21	nmod	_	_
+24	che	che	PRON	PR	PronType=Rel	26	obj	_	_
+25	stavi	stave	ADV	B	_	26	advmod	_	_
+26	pensando	pensare	VERB	V	VerbForm=Ger	23	acl:relcl	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	scrivendo	scrivere	VERB	V	VerbForm=Ger	26	conj	_	_
+29	e	e	CCONJ	CC	_	34	cc	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	34	nsubj	_	_
+32	non	non	ADV	BN	PronType=Neg	34	advmod	_	_
+33	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+34	infinito	infinire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	conj	_	_
+35	8	8	NUM	N	NumType=Card	36	nummod	_	_
+36	Prima	prima	ADV	B	_	34	advmod	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	foglio	foglio	NOUN	S	Gender=Masc|Number=Sing	34	obl	_	_
+40	rileggi	rilegge	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	advcl	_	_
+41	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	42	det	_	_
+42	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	40	obj	_	_
+43	che	che	PRON	PR	PronType=Rel	46	nsubj	_	_
+44	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	aux	_	_
+45	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	46	aux	_	_
+46	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	42	acl:relcl	_	_
+47	perché	perché	SCONJ	CS	_	49	mark	_	_
+48	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	49	expl	_	_
+49	accorgi	accorgio	NOUN	S	Gender=Masc|Number=Plur	46	advcl	_	_
+50	di	di	ADP	E	_	51	case	_	_
+51	errori	errore	NOUN	S	Gender=Masc|Number=Plur	49	nmod	_	SpaceAfter=No
+52	,	,	PUNCT	FF	_	49	punct	_	_
+53	,	,	PUNCT	FF	_	54	punct	_	_
+54	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	49	nmod	_	_
+55	che	che	PRON	PR	PronType=Rel	56	nsubj	_	_
+56	potresti	potere	VERB	V	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	54	acl:relcl	_	_
+57	,	,	PUNCT	FF	_	61	punct	_	_
+58	e	e	CCONJ	CC	_	61	cc	_	_
+59	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	61	det	_	_
+60	altre	altro	ADJ	A	Gender=Fem|Number=Plur	61	amod	_	_
+61	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	56	conj	_	SpaceAfter=No
+62	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Questi sono i miei consigli per fare un ottimo tema e prendere un buon voto.
+1	Questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	5	nsubj	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	consigli	consiglio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	fare	fare	VERB	V	VerbForm=Inf	5	acl	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	ottimo	ottimo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	tema	tema	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	prendere	prendere	VERB	V	VerbForm=Inf	7	conj	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	buon	buono	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	voto	voto	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = Ti auguro tutta la fortuna del mondo per un buon anno .
+1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	expl	_	_
+2	auguro	augurare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	5	det:predet	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	per	per	ADP	E	_	12	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	buon	buono	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	anno	anno	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Non vedo lora di vederti alla nostra scuola.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	lora	lora	ADV	B	_	2	advmod	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5-6	vederti	_	_	_	_	_	_	_	_
+5	veder	vedere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+6	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	5	obj	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

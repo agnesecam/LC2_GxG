@@ -1,0 +1,181 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Caro Maurizio, Ho saputo che andrai in quinta con le stese maestre che mi hanno in questo tragitto per cinque anni.
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Maurizio	Maurizio	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	saputo	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	parataxis	_	_
+6	che	che	SCONJ	CS	_	9	mark	_	_
+7	andrai	andere	ADV	B	_	9	advmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	quinta	quinto	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	5	ccomp	_	_
+10	con	con	ADP	E	_	13	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	stese	stesa	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+13	maestre	maestra	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	obj	_	_
+16	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
+19	tragitto	tragitto	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	cinque	cinque	NUM	N	NumType=Card	22	nummod	_	_
+22	anni	anno	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Ti dico un segreto per prendere bei voti devi farti amiche le maestre, ma non ci prendere il vizio.
+1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	iobj	_	_
+2	dico	dire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	segreto	segreto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	prendere	prendere	VERB	V	VerbForm=Inf	4	acl	_	_
+7	bei	bello	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+8	voti	voto	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+9	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	farti	fartire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	conj	_	_
+11	amiche	amico	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	maestre	maestra	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	18	punct	_	_
+15	ma	ma	CCONJ	CC	_	18	cc	_	_
+16	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+17	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	18	iobj	_	_
+18	prendere	prendere	VERB	V	VerbForm=Inf	10	conj	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	vizio	vizio	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Scherzo!
+1	Scherzo	scherzo	ADV	B	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Posso dirti che con la maestra Divina ti troverai bene, ti svelo un segreto se darai i risultati .
+1	Posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2-3	dirti	_	_	_	_	_	_	_	_
+2	dir	dire	VERB	V	VerbForm=Inf	0	root	_	_
+3	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	iobj	_	_
+4	che	che	PRON	PR	PronType=Rel	2	obj	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	maestra	maestra	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+8	Divina	Divina	PROPN	SP	_	7	nmod	_	_
+9	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	10	obj	_	_
+10	troverai	troveere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+11	bene	bene	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	14	iobj	_	_
+14	svelo	svelare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	conj	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	segreto	segreto	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	se	se	SCONJ	CS	_	18	mark	_	_
+18	darai	dare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	16	advcl	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	_
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Non fare la maestra divina perché di , e gentili come lei non spesso si trovano io ho sempre dato il massimo per gli studi e i risultati sono arrivati, anche se in questultimo periodo non sto andando bene ma non voglio che tu faccia lo stesso, fidati vedere negli occhi di un un velo di rabbia, delusione e tristezza non è bello, anzi tutto il contrario.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	maestra	maestra	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	divina	divinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+6	perché	perché	SCONJ	CS	_	16	mark	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	gentili	gentile	ADJ	A	Number=Plur	16	obl	_	_
+11	come	come	ADP	E	_	12	case	_	_
+12	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obl	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	spesso	spesso	ADV	B	_	16	advmod	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	trovano	trovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+17	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+18	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	sempre	sempre	ADV	B	_	20	advmod	_	_
+20	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	massimo	massimo	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23	per	per	ADP	E	_	25	case	_	_
+24	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	studi	studio	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	25	conj	_	_
+29	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	arrivati	arrivare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32	anche	anche	ADV	B	_	39	mark	_	_
+33	se	se	SCONJ	CS	_	32	fixed	_	_
+34	in	in	ADP	E	_	36	case	_	_
+35	questultimo	questultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	36	amod	_	_
+36	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	39	obl	_	_
+37	non	non	ADV	BN	PronType=Neg	39	advmod	_	_
+38	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	39	aux	_	_
+39	andando	andare	VERB	V	VerbForm=Ger	30	advcl	_	_
+40	bene	bene	ADV	B	_	39	advmod	_	_
+41	ma	ma	CCONJ	CC	_	43	cc	_	_
+42	non	non	ADV	BN	PronType=Neg	43	advmod	_	_
+43	voglio	volere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	39	conj	_	_
+44	che	che	SCONJ	CS	_	46	mark	_	_
+45	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	46	nsubj	_	_
+46	faccia	fare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	ccomp	_	_
+47	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	stesso	stesso	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	46	obj	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	46	punct	_	_
+50	fidati	fidare	ADJ	A	Gender=Masc|Number=Plur	72	amod	_	_
+51	vedere	vedere	VERB	V	VerbForm=Inf	72	csubj	_	_
+52-53	negli	_	_	_	_	_	_	_	_
+52	in	in	ADP	E	_	54	case	_	_
+53	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	54	det	_	_
+54	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	51	obl	_	_
+55	di	di	ADP	E	_	58	case	_	_
+56	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
+57	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
+58	velo	velo	NOUN	S	Gender=Masc|Number=Sing	54	nmod	_	_
+59	di	di	ADP	E	_	60	case	_	_
+60	rabbia	rabbia	NOUN	S	Gender=Fem|Number=Sing	58	nmod	_	SpaceAfter=No
+61	,	,	PUNCT	FF	_	62	punct	_	_
+62	delusione	delusione	NOUN	S	Gender=Fem|Number=Sing	60	conj	_	_
+63	e	e	CCONJ	CC	_	64	cc	_	_
+64	tristezza	tristezza	NOUN	S	Gender=Fem|Number=Sing	60	conj	_	_
+65	non	non	ADV	BN	PronType=Neg	67	advmod	_	_
+66	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	67	cop	_	_
+67	bello	bello	ADJ	A	Gender=Masc|Number=Sing	51	ccomp	_	SpaceAfter=No
+68	,	,	PUNCT	FF	_	72	punct	_	_
+69	anzi	anzi	ADV	B	_	72	advmod	_	_
+70	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	72	det:predet	_	_
+71	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	72	det	_	_
+72	contrario	contrario	NOUN	S	Gender=Masc|Number=Sing	46	obl	_	SpaceAfter=No
+73	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Ora ti lascio, mi dai e bene, non fare quello che ho fatto io!
+1	Ora	ora	ADV	B	_	3	advmod	_	_
+2	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	obj	_	_
+3	lascio	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	obj	_	_
+6-7	dai	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	12	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+8	e	e	CCONJ	CC	_	12	cc	_	_
+9	bene	bene	ADV	B	_	12	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	fare	fare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+13	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	12	obj	_	_
+14	che	che	PRON	PR	PronType=Rel	16	obj	_	_
+15	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+17	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	16	nsubj	_	SpaceAfter=No
+18	!	!	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

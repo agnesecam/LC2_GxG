@@ -1,0 +1,233 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ciao Mario.
+1	Ciao	ciao	INTJ	I	_	0	root	_	_
+2	Mario	Mario	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Ho saputo che lanno prossimo verrai alla mazzini la mia stessa scuola, che bello!
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	saputo	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	che	che	SCONJ	CS	_	4	mark	_	_
+4	lanno	lanno	NOUN	S	Gender=Masc|Number=Sing	2	ccomp	_	_
+5	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	verrai	verere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	acl	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	mazzini	mazzino	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+11	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+12	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	bello	bello	ADJ	A	Gender=Masc|Number=Sing	13	acl:relcl	_	SpaceAfter=No
+17	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Così potremo vederci tutti i giorni Dato che verrai in 1B e io sto in 2B immaggino che tu voglia dei consigli dato che avrai qualche in comune ma molti cambiano istituto o classe e nelle altre materie non sono molto bravo quindi ti darò una mano solo nei temi di Italiano, con Castelli infatti per andare bene nei tremi in classe devi Far partire la fantasia in modo tale da poter scrivere temi più e però senza esagerare troppo.
+1	Così	così	ADV	B	_	3	advmod	_	_
+2	potremo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	3	aux	_	_
+3-4	vederci	_	_	_	_	_	_	_	_
+3	veder	vedere	VERB	V	VerbForm=Inf	0	root	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	expl	_	_
+5	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	7	det:predet	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+8	Dato	dato	PROPN	SP	_	7	nmod	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	verrai	verere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	1B	1B	PROPN	SP	_	10	obl	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	sto	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	conj	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	2B	2B	PROPN	SP	_	18	obl	_	_
+18	immaggino	immaggiare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+19	che	che	SCONJ	CS	_	21	mark	_	_
+20	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	21	nsubj	_	_
+21	voglia	vogliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	_
+22-23	dei	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	consigli	consiglio	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	_
+25	dato	dato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	_
+26	che	che	SCONJ	CS	_	30	mark	_	_
+27	avrai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	30	cop	_	_
+28	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	30	det	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	comune	comune	NOUN	S	Gender=Masc|Number=Sing	25	ccomp	_	_
+31	ma	ma	CCONJ	CC	_	48	cc	_	_
+32	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	34	det	_	_
+33	cambiano	cambiare	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	_
+34	istituto	istituto	NOUN	S	Gender=Masc|Number=Sing	48	nsubj	_	_
+35	o	o	CCONJ	CC	_	36	cc	_	_
+36	classe	classe	NOUN	S	Gender=Fem|Number=Sing	34	conj	_	_
+37	e	e	CCONJ	CC	_	41	cc	_	_
+38-39	nelle	_	_	_	_	_	_	_	_
+38	in	in	ADP	E	_	41	case	_	_
+39	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
+40	altre	altro	ADJ	A	Gender=Fem|Number=Plur	41	amod	_	_
+41	materie	materia	NOUN	S	Gender=Fem|Number=Plur	48	obl	_	_
+42	non	non	ADV	BN	PronType=Neg	45	advmod	_	_
+43	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	45	cop	_	_
+44	molto	molto	ADV	B	_	45	advmod	_	_
+45	bravo	bravo	ADJ	A	Gender=Masc|Number=Sing	41	amod	_	_
+46	quindi	quindi	ADV	B	_	48	advmod	_	_
+47	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	48	iobj	_	_
+48	darò	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	conj	_	_
+49	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+50	mano	mano	NOUN	S	Gender=Fem|Number=Sing	48	obj	_	_
+51	solo	solo	ADV	B	_	54	advmod	_	_
+52-53	nei	_	_	_	_	_	_	_	_
+52	in	in	ADP	E	_	54	case	_	_
+53	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	54	det	_	_
+54	temi	tema	NOUN	S	Gender=Masc|Number=Plur	48	obl	_	_
+55	di	di	ADP	E	_	56	case	_	_
+56	Italiano	italiano	PROPN	SP	_	54	nmod	_	SpaceAfter=No
+57	,	,	PUNCT	FF	_	48	punct	_	_
+58	con	con	ADP	E	_	59	case	_	_
+59	Castelli	castelli	PROPN	SP	_	70	obl	_	_
+60	infatti	infatti	ADV	B	_	62	advmod	_	_
+61	per	per	ADP	E	_	62	mark	_	_
+62	andare	andare	VERB	V	VerbForm=Inf	70	advcl	_	_
+63	bene	bene	ADV	B	_	62	advmod	_	_
+64-65	nei	_	_	_	_	_	_	_	_
+64	in	in	ADP	E	_	66	case	_	_
+65	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	66	det	_	_
+66	tremi	tremio	NOUN	S	Gender=Masc|Number=Plur	62	obl	_	_
+67	in	in	ADP	E	_	68	case	_	_
+68	classe	classe	NOUN	S	Gender=Fem|Number=Sing	66	nmod	_	_
+69	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	70	aux	_	_
+70	Far	fare	VERB	V	VerbForm=Inf	48	advcl	_	_
+71	partire	partire	VERB	V	VerbForm=Inf	70	ccomp	_	_
+72	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	73	det	_	_
+73	fantasia	fantasia	NOUN	S	Gender=Fem|Number=Sing	71	obj	_	_
+74	in	in	ADP	E	_	75	case	_	_
+75	modo	modo	NOUN	S	Gender=Masc|Number=Sing	71	obl	_	_
+76	tale	tale	ADJ	A	Number=Sing	75	amod	_	_
+77	da	da	ADP	E	_	79	mark	_	_
+78	poter	potere	AUX	VM	VerbForm=Inf	79	aux	_	_
+79	scrivere	scrivere	VERB	V	VerbForm=Inf	76	advcl	_	_
+80	temi	tema	NOUN	S	Gender=Masc|Number=Plur	79	obj	_	_
+81	più	più	ADV	B	_	85	advmod	_	_
+82	e	e	CCONJ	CC	_	85	cc	_	_
+83	però	però	ADV	B	_	85	advmod	_	_
+84	senza	senza	ADP	E	_	85	mark	_	_
+85	esagerare	esagerare	VERB	V	VerbForm=Inf	80	conj	_	_
+86	troppo	troppo	ADV	B	_	85	advmod	_	SpaceAfter=No
+87	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Badare alla perché lui dà anche un voto su quello;
+1	Badare	Badare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	6	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+4	perché	perché	SCONJ	CS	_	6	mark	_	_
+5	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+7	anche	anche	ADV	B	_	6	advmod	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	voto	voto	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+10	su	su	ADP	E	_	11	case	_	_
+11	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	9	nmod	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = Badare alla struttura perché cè un altro voto sempre per quello;
+1	Badare	Badare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	struttura	struttura	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5	perché	perché	SCONJ	CS	_	6	mark	_	_
+6	cè	cere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	altro	altro	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	voto	voto	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+10	sempre	sempre	ADV	B	_	12	advmod	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	9	nmod	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 6
+# text = un bel lessico in modo tale da meglio i lettori di quello che dici; un opinione alla fine di ogni testo.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	bel	bello	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	lessico	lessico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	modo	modo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6	tale	tale	ADJ	A	Number=Sing	5	amod	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	meglio	meglio	ADV	B	_	5	advmod	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	lettori	lettore	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	10	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	14	obj	_	_
+14	dici	dire	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	17	punct	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	opinione	opinione	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+18-19	alla	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	fine	fine	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	23	det	_	_
+23	testo	testo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Ecco queste erano dritte per andare bene nei temi dato dai .
+1	Ecco	ecco	ADV	B	_	4	advmod	_	_
+2	queste	questo	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	4	nsubj	_	_
+3	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	dritte	drittere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	andare	andare	VERB	V	VerbForm=Inf	4	advcl	_	_
+7	bene	bene	ADV	B	_	6	advmod	_	_
+8-9	nei	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	temi	tema	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+11	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+12-13	dai	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	13	fixed	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	obl:agent	_	_
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Spero che prenderai ottimi voti e che ti trovando subito buoni amici;
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	3	mark	_	_
+3	prenderai	prendeere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	ccomp	_	_
+4	ottimi	ottimo	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+5	voti	voto	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	che	che	SCONJ	CS	_	8	mark	_	_
+8	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	conj	_	_
+9	trovando	trovare	VERB	V	VerbForm=Ger	8	advcl	_	_
+10	subito	subito	ADV	B	_	9	advmod	_	_
+11	buoni	buono	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+12	amici	amico	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 9
+# text = in bocca al lupo per le medie.
+1	in	in	ADP	E	_	2	case	_	_
+2	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	lupo	lupo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	medie	media	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

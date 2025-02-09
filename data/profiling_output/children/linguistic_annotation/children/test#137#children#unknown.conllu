@@ -1,0 +1,416 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Caro amico, ciao sono felice che ti sei iscritto alla mia stessa scuola!
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	amico	amico	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	ciao	ciao	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	felice	felice	ADJ	A	Number=Sing	0	root	_	_
+7	che	che	SCONJ	CS	_	10	mark	_	_
+8	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	10	obj	_	_
+9	sei	essere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	iscritto	iscrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	15	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+13	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+14	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+16	!	!	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = In questo tema ti dovrò dare dei buoni consigli per fare una buona prova di scritta.
+1	In	in	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	tema	tema	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	6	expl	_	_
+5	dovrò	dovere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	6	aux	_	_
+6	dare	dare	VERB	V	VerbForm=Inf	0	root	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	buoni	buono	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+10	consigli	consiglio	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	fare	fare	VERB	V	VerbForm=Inf	6	advcl	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	buona	buono	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	prova	prova	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	scritta	scritta	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Devi sapere, prima di tutto, che i non valutano tutti allo stesso modo.
+1	Devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	sapere	sapere	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	prima	prima	ADV	B	_	6	case	_	_
+5	di	di	ADP	E	_	4	fixed	_	_
+6	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	che	che	SCONJ	CS	_	11	mark	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	valutano	valutare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+12	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	11	nsubj	_	_
+13-14	allo	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	16	case	_	_
+14	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	modo	modo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ad esempio io ai temi con le la mia di lettere prendo al massimo otto mentre a quello con il di prendo dieci.
+1	Ad	a	ADP	E	_	2	case	_	_
+2	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	0	root	_	_
+4-5	ai	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	temi	tema	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7	con	con	ADP	E	_	10	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	mia	mia	PRON	PP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+13	prendo	prendere	VERB	V	VerbForm=Ger	6	acl	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	massimo	massimo	ADJ	A	Gender=Masc|Number=Sing	13	obl	_	_
+17	otto	urre	NUM	N	NumType=Card	16	nummod	_	_
+18	mentre	mentre	CCONJ	CC	_	20	cc	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	17	conj	_	_
+21	con	con	ADP	E	_	24	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	prendo	prendere	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+25	dieci	dieci	NUM	N	NumType=Card	24	nummod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Sono entrambi buoni voti ma questo ci fa capire come uno stile di scrittura può piacere più o meno.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	entrambi	entrambi	DET	T	Gender=Masc|Number=Plur|PronType=Tot	4	det	_	_
+3	buoni	buono	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+4	voti	voto	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+5	ma	ma	CCONJ	CC	_	8	cc	_	_
+6	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	8	nsubj	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	8	iobj	_	_
+8	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+9	capire	capire	VERB	V	VerbForm=Inf	8	ccomp	_	_
+10	come	come	ADP	E	_	12	case	_	_
+11	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	stile	stile	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	scrittura	scrittura	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	piacere	piacere	VERB	V	VerbForm=Inf	0	root	_	_
+17	più	più	ADV	B	_	16	advmod	_	_
+18	o	o	CCONJ	CC	_	19	cc	_	_
+19	meno	meno	ADV	B	_	17	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 6
+# text = Secondo me ci sono cinque regole che devi per eseguire un buon tema.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+4	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	cinque	cinque	NUM	N	NumType=Card	6	nummod	_	_
+6	regole	regola	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	devi	dere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	eseguire	eseguire	VERB	V	VerbForm=Inf	8	advcl	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	buon	buono	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	tema	tema	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Il primo punto è scrivere una brutta copia iniziale nella quale potrai buttare giù le tue idee per poi metterle insieme e .
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	punto	punto	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	scrivere	scrivere	VERB	V	VerbForm=Inf	0	root	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	brutta	brutto	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	copia	copia	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+9	iniziale	iniziale	ADJ	A	Number=Sing	8	amod	_	_
+10-11	nella	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	quale	quale	PRON	PR	Number=Sing|PronType=Rel	14	obl	_	_
+13	potrai	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	14	aux	_	_
+14	buttare	buttare	VERB	V	VerbForm=Inf	8	acl:relcl	_	_
+15	giù	giù	ADV	B	_	14	advmod	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+17	tue	tuo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	idee	idea	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+19	per	per	ADP	E	_	21	mark	_	_
+20	poi	poi	ADV	B	_	21	advmod	_	_
+21-22	metterle	_	_	_	_	_	_	_	_
+21	metter	mettere	VERB	V	VerbForm=Inf	14	advcl	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	insieme	insieme	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	_
+24	e	e	CCONJ	CC	_	23	cc	_	_
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = La brutta copia è per l anche per vedere, ad esempio, se hai ripetuto un errore oppure hai solo copiato male o .
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	brutta	brutto	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	copia	copia	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	l	l	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	anche	anche	ADV	B	_	9	advmod	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	vedere	vedere	VERB	V	VerbForm=Inf	6	acl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	ad	a	ADP	E	_	12	case	_	_
+12	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	6	punct	_	_
+14	se	se	SCONJ	CS	_	16	mark	_	_
+15	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	ripetuto	ripetere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	errore	errore	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	oppure	oppure	CCONJ	CC	_	22	cc	_	_
+20	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	solo	solo	ADV	B	_	22	advmod	_	_
+22	copiato	copiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	conj	_	_
+23	male	male	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+24	o	o	CCONJ	CC	_	25	cc	_	_
+25	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = Ti consiglio quindi di sempre, magari dentro la bella copia.
+1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	expl	_	_
+2	consiglio	consigliare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	quindi	quindi	ADV	B	_	2	advmod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	sempre	sempre	ADV	B	_	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	magari	magari	ADV	B	_	11	advmod	_	_
+8	dentro	dentro	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	bella	bello	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	copia	copia	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Come secondo puntoti consiglio una alla traccia scelta o che hai da eseguire.
+1	Come	come	ADP	E	_	3	case	_	_
+2	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	puntoti	puntoto	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+4	consiglio	consigliare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	4	obj	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	traccia	traccia	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+9	scelta	scelto	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	o	o	CCONJ	CC	_	12	cc	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	conj	_	_
+13	da	da	ADP	E	_	14	mark	_	_
+14	eseguire	eseguire	VERB	V	VerbForm=Inf	12	ccomp	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = Non devi distrarti perché potresti iniziare la frase con un discorso e finirla con unaltra.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3-4	distrarti	_	_	_	_	_	_	_	_
+3	distrar	distrarre	VERB	V	VerbForm=Inf	0	root	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	obj	_	_
+5	perché	perché	SCONJ	CS	_	7	mark	_	_
+6	potresti	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	iniziare	iniziare	VERB	V	VerbForm=Inf	3	advcl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	frase	frase	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	discorso	discorso	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14-15	finirla	_	_	_	_	_	_	_	_
+14	finir	finire	VERB	V	VerbForm=Inf	7	conj	_	_
+15	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	con	con	ADP	E	_	17	case	_	_
+17	unaltra	unaltro	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Spesso capita di andare fuori traccia.
+1	Spesso	spesso	ADV	B	_	2	advmod	_	_
+2	capita	capitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	andare	andare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	fuori	fuori	ADV	B	_	4	advmod	_	_
+6	traccia	traccia	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Il terzo punto è il lessico.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	punto	punto	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	lessico	lessico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 14
+# text = l oltre al contenuto del tema corregge anche i temuti errori .
+1	l	l	NOUN	S	Gender=Masc	9	nsubj	_	_
+2	oltre	oltre	ADV	B	_	5	case	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	2	fixed	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	contenuto	contenuto	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	tema	tema	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	corregge	correggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	anche	anche	ADV	B	_	13	advmod	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	temuti	temuto	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+13	errori	errore	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+14	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 15
+# text = Io nei temi finisco col farne almeno uno, cosa molto .
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2-3	nei	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	temi	tema	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+5	finisco	finire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6-7	col	_	_	_	_	_	_	_	_
+6	con	con	ADP	E	_	8	mark	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8-9	farne	_	_	_	_	_	_	_	_
+8	far	fare	VERB	V	VerbForm=Inf	5	advcl	_	_
+9	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	8	iobj	_	_
+10	almeno	almeno	ADV	B	_	11	advmod	_	_
+11	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	11	nmod	_	_
+14	molto	molto	ADV	B	_	13	advmod	_	_
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 16
+# text = Come quarto punto ti consiglio la rilettura attenta del tema in brutta perché potresti sempre trovare qualche errore che potresti ripetere nella bella copia.
+1	Come	come	ADP	E	_	3	case	_	_
+2	quarto	quarto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	punto	punto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	5	iobj	_	_
+5	consiglio	consigliare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	rilettura	rilettura	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	attenta	attento	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	tema	tema	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	brutta	brutto	ADJ	A	Gender=Fem|Number=Sing	11	nmod	_	_
+14	perché	perché	SCONJ	CS	_	17	mark	_	_
+15	potresti	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	sempre	sempre	ADV	B	_	17	advmod	_	_
+17	trovare	trovare	VERB	V	VerbForm=Inf	5	advcl	_	_
+18	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	19	det	_	_
+19	errore	errore	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	potresti	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	ripetere	ripetere	VERB	V	VerbForm=Inf	19	acl:relcl	_	_
+23-24	nella	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	26	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	bella	bello	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+26	copia	copia	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 17
+# text = Qui ti consiglio anche di qualcosa un contenuto in più, una perché è bene i temi e poi all fa sempre piacere capire come la pensi tu.
+1	Qui	qui	ADV	B	_	3	advmod	_	_
+2	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	obj	_	_
+3	consiglio	consigliare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	anche	anche	ADV	B	_	6	advmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	3	obl	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	contenuto	contenuto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	più	più	ADV	B	_	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	3	nsubj	_	_
+13	perché	perché	SCONJ	CS	_	17	mark	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	bene	bene	ADV	B	_	17	advmod	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	temi	tema	NOUN	S	Gender=Masc|Number=Plur	3	advcl	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	poi	poi	ADV	B	_	21	advmod	_	_
+20	all	all	PRON	PQ	Number=Sing|PronType=Int	21	nsubj	_	_
+21	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	_
+22	sempre	sempre	ADV	B	_	21	advmod	_	_
+23	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24	capire	capire	VERB	V	VerbForm=Inf	21	ccomp	_	_
+25	come	come	SCONJ	CS	_	28	mark	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	pensi	penso	NOUN	S	Number=Plur	28	nsubj	_	_
+28	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	24	ccomp	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = Infine è la copiatura in bella copia nella quale devi stare molto attento.
+1	Infine	infine	ADV	B	_	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	copiatura	copiatura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	bella	bello	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	copia	copia	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8-9	nella	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	quale	quale	PRON	PR	Number=Sing|PronType=Rel	12	obl	_	_
+11	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	stare	stare	VERB	V	VerbForm=Inf	7	acl:relcl	_	_
+13	molto	molto	ADV	B	_	14	advmod	_	_
+14	attento	attento	ADJ	A	Gender=Masc|Number=Sing	12	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 19
+# text = Se seguirai questi consigli il tuo tema sarà da un ottimo voto.
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	seguirai	seguire	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	12	advcl	_	_
+3	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+4	consigli	consiglio	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	tema	tema	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+8	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	cop	_	_
+9	da	da	ADP	E	_	12	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	ottimo	ottimo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	voto	voto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 20
+# text = Buon anno .
+1	Buon	buono	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	anno	anno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,130 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Caro, Carlo Vorrei darti delle dritte la prima cosa non devi mai andare fuori tema sennò il tema non vale più.
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	Carlo	Carlo	PROPN	SP	_	5	nsubj	_	_
+4	Vorrei	volere	PROPN	SP	_	3	flat:name	_	_
+5	darti	dartire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	dritte	dritta	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	11	amod	_	_
+11	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+12	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+13	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	mai	mai	ADV	B	_	15	advmod	_	_
+15	andare	andare	VERB	V	VerbForm=Inf	8	acl:relcl	_	_
+16	fuori	fuori	ADV	B	_	17	advmod	_	_
+17	tema	tema	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+18	sennò	sennare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	conj	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	tema	tema	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+21	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+22	vale	valere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+23	più	più	ADV	B	_	22	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Poi oltre ad andare fuori tema non sbagliare l e stai attento alle lettere che con di più come la a e la o, poi oltre all cè la storia racconta una cosa personale che puoi esprimere la scrittura, il contenuto deve essere al massimo due pagine.
+1	Poi	poi	ADV	B	_	33	advmod	_	_
+2	oltre	oltre	ADV	B	_	4	mark	_	_
+3	ad	a	ADP	E	_	2	fixed	_	_
+4	andare	andare	VERB	V	VerbForm=Inf	33	advcl	_	_
+5	fuori	fuori	ADV	B	_	4	advmod	_	_
+6	tema	tema	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	sbagliare	sbagliare	VERB	V	VerbForm=Inf	6	acl	_	_
+9	l	l	X	X	_	8	obj	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	stai	stare	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	_
+12	attento	attento	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13-14	alle	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+16	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	di	di	ADP	E	_	17	fixed	_	_
+19	più	più	ADV	B	_	22	advmod	_	_
+20	come	come	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	a	a	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+23	e	e	CCONJ	CC	_	30	cc	_	_
+24	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	obj	_	_
+25	o	o	CCONJ	CC	_	30	cc	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	30	punct	_	_
+27	poi	poi	ADV	B	_	30	advmod	_	_
+28	oltre	oltre	ADV	B	_	29	advmod	_	_
+29	all	all	PRON	PQ	Number=Sing|PronType=Int	30	nsubj	_	_
+30	cè	cere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	storia	storia	NOUN	S	Gender=Fem|Number=Sing	30	obj	_	_
+33	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+34	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	51	obj	_	_
+36	personale	personale	ADJ	A	Number=Sing	35	amod	_	_
+37	che	che	PRON	PR	PronType=Rel	39	nsubj	_	_
+38	puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	39	aux	_	_
+39	esprimere	esprimere	VERB	V	VerbForm=Inf	35	acl:relcl	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	scrittura	scrittura	NOUN	S	Gender=Fem|Number=Sing	39	obj	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	35	punct	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	contenuto	contenuto	NOUN	S	Gender=Masc|Number=Sing	51	nsubj	_	_
+45	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	aux	_	_
+46	essere	essere	AUX	V	VerbForm=Inf	51	cop	_	_
+47-48	al	_	_	_	_	_	_	_	_
+47	a	a	ADP	E	_	51	case	_	_
+48	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+49	massimo	massimo	ADJ	A	Gender=Masc|Number=Sing	51	amod	_	_
+50	due	due	NUM	N	NumType=Card	51	nummod	_	_
+51	pagine	pagina	NOUN	S	Gender=Fem|Number=Plur	33	nmod	_	SpaceAfter=No
+52	.	.	PUNCT	FS	_	33	punct	_	_
+
+# sent_id = 3
+# text = Se non ai unidea puoi farti sempre una scaletta, ma se le domande della scaletta non hanno senso e il tema può sminuire il valore.
+1	Se	se	SCONJ	CS	_	7	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+3-4	ai	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	unidea	unidea	NOUN	S	Number=Sing	7	obl	_	_
+6	puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	farti	fartire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	20	advcl	_	_
+8	sempre	sempre	ADV	B	_	7	advmod	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	scaletta	scaletta	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	20	punct	_	_
+12	ma	ma	CCONJ	CC	_	20	cc	_	_
+13	se	se	SCONJ	CS	_	20	mark	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	domande	domanda	NOUN	S	Gender=Fem|Number=Plur	20	nsubj	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	scaletta	scaletta	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+20	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+21	senso	senso	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+22	e	e	CCONJ	CC	_	26	cc	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	tema	tema	NOUN	S	Gender=Masc|Number=Sing	26	nsubj	_	_
+25	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	sminuire	sminuire	VERB	V	VerbForm=Inf	20	conj	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	valore	valore	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 4
+# text = Questi sono i miei conzigli.
+1	Questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	5	nsubj	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	conzigli	conziglio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

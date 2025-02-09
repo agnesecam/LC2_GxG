@@ -1,0 +1,300 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sono ormai alla fine della prima media.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	ormai	ormai	ADV	B	_	5	advmod	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	fine	fine	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	9	amod	_	_
+9	media	medio	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = È stato un grande rispetto alle .
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+2	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	grande	grande	ADJ	A	Number=Sing	5	amod	_	_
+5	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6-7	alle	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	le	le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	nmod	_	_
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Caro Giulio, io non mi ricordo molte cose.
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Giulio	Giulio	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+8	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
+9	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = A me i compiti scritti mi piacciono molto perché le tracce erano , però capitava qualche volta che non sapevo cosa scrivere, perché la traccia o le tracce non mi del tutto.
+1	A	a	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	obl	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+5	scritti	scrivere	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	piacciono	piacere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	molto	molto	ADV	B	_	7	advmod	_	_
+9	perché	perché	SCONJ	CS	_	13	mark	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	tracce	traccia	NOUN	S	Gender=Fem|Number=Plur	13	nsubj	_	_
+12	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	però	però	ADV	B	_	15	advmod	_	_
+15	capitava	capitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+16	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	17	det	_	_
+17	volta	volta	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+18	che	che	SCONJ	CS	_	20	mark	_	_
+19	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+20	sapevo	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	15	ccomp	_	_
+21	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	22	obj	_	_
+22	scrivere	scrivere	VERB	V	VerbForm=Inf	20	xcomp	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	15	punct	_	_
+24	perché	perché	SCONJ	CS	_	26	mark	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	traccia	traccia	NOUN	S	Gender=Fem|Number=Sing	15	advcl	_	_
+27	o	o	CCONJ	CC	_	29	cc	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	tracce	traccia	NOUN	S	Gender=Fem|Number=Plur	26	conj	_	_
+30	non	non	ADV	BN	PronType=Neg	31	advmod	_	_
+31	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	29	nmod	_	_
+32-33	del	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = A me piacevano tanto i compiti in cui bisognava o parlare di te, la tua da qualche parte, parlare dei tuoi o il tuo oggetto preferito o qualcuno.
+1	A	a	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+3	piacevano	piacere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	tanto	tanto	ADV	B	_	3	advmod	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	cui	cui	PRON	PR	PronType=Rel	9	obl	_	_
+9	bisognava	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	_
+10	o	o	CCONJ	CC	_	11	cc	_	_
+11	parlare	parlare	VERB	V	VerbForm=Inf	9	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	te	te	PRON	PE	Number=Sing|Person=2|PronType=Prs	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	tua	tuo	PRON	PP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	obj	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	19	det	_	_
+19	parte	parte	NOUN	S	Gender=Fem|Number=Sing	16	obl:agent	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	16	punct	_	_
+21	parlare	parlare	VERB	V	VerbForm=Inf	3	conj	_	_
+22-23	dei	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	tuoi	tuo	PRON	PP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	nmod	_	_
+25	o	o	CCONJ	CC	_	28	cc	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	oggetto	oggetto	NOUN	S	Gender=Masc|Number=Sing	24	conj	_	_
+29	preferito	preferire	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+30	o	o	CCONJ	CC	_	31	cc	_	_
+31	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	29	conj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Poi, però cerano giorni in cui mi mancavano mi mancavano di fare i temi e altri no.
+1	Poi	poi	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	però	però	ADV	B	_	4	advmod	_	_
+4	cerano	cerare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	cui	cui	PRON	PR	PronType=Rel	9	obl	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+9	mancavano	mancare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+11	mancavano	mancare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	xcomp	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	fare	fare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	temi	tema	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	11	conj	_	_
+18	no	no	ADV	BN	PronType=Neg	17	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Quando non mi andava avevo fantasia e non mi venivano le idee.
+1	Quando	quando	SCONJ	CS	_	4	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	andava	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
+5	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	fantasia	esfantasere	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
+10	venivano	venire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	idee	idea	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Noi di compiti in classe, se mi ricordo bene.
+1	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	classe	classe	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	se	se	SCONJ	CS	_	9	mark	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
+9	ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+10	bene	bene	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Invece, di compiti a casa non ce ne davano molti, cerano giorni in cui né davano di più e altri in cui né davano di meno.
+1	Invece	invece	ADV	B	_	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+8	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	_
+9	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	10	iobj	_	_
+10	davano	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	cerano	cerare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+14	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	cui	cui	PRON	PR	PronType=Rel	18	obl	_	_
+17	né	né	CCONJ	CC	_	18	cc	_	_
+18	davano	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	acl:relcl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	più	più	ADV	B	_	18	advmod	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	26	conj	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	cui	cui	PRON	PR	PronType=Rel	26	obl	_	_
+25	né	né	CCONJ	CC	_	26	cc	_	_
+26	davano	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	conj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	meno	meno	ADV	B	_	26	advmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 10
+# text = Non mi ricordo come le maestre i temi e i compiti.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+3	ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	come	come	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	maestre	maestra	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	temi	tema	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = A me è piaciuta molto la quinta .
+1	A	a	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	piaciuta	piacere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	molto	molto	ADV	B	_	4	advmod	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	quinta	quinto	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	xcomp	_	_
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Invece i compiti che non mi piacevano erano quelli in cui bisognava inventare storie e racconti.
+1	Invece	invece	ADV	B	_	9	advmod	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	piacevano	piacere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+8	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+9	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	0	root	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	cui	cui	PRON	PR	PronType=Rel	12	obl	_	_
+12	bisognava	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	_
+13	inventare	inventare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+14	storie	storia	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	racconti	racconte	NOUN	S	Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 13
+# text = La maestra per a scrivere bene ogni tanto ci metteva vicino a lei alla cattedra e ci dava tanti e consigli.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	maestra	maestra	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	per	per	ADP	E	_	5	mark	_	_
+4	a	a	ADP	E	_	3	fixed	_	_
+5	scrivere	scrivere	VERB	V	VerbForm=Inf	10	advcl	_	_
+6	bene	bene	ADV	B	_	5	advmod	_	_
+7	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	8	det	_	_
+8	tanto	tanto	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	_
+10	metteva	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11	vicino	vicino	ADV	B	_	13	case	_	_
+12	a	a	ADP	E	_	11	fixed	_	_
+13	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obl	_	_
+14-15	alla	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	cattedra	cattedra	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	19	expl	_	_
+19	dava	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	conj	_	_
+20	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	19	nsubj	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	consigli	consiglio	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 14
+# text = Spero che passerai una buona quinta e un buon anno.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	3	mark	_	_
+3	passerai	passeere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+5	buona	buono	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+6	quinta	quinta	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	10	amod	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	buon	buono	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	anno	anno	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Spero pure che i miei consigli siano stati .
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	pure	pure	ADV	B	_	1	advmod	_	_
+3	che	che	SCONJ	CS	_	8	mark	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	consigli	consiglio	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+7	siano	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	stati	essere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	ccomp	_	_
+9	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
